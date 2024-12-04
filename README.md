@@ -12,6 +12,4 @@ its n-th element is a list (possibly empty) of information records for
 the non-separating primitive groups of degree n. You should load the
 FinInG package before reading nonsep_records.g into GAP.
 
-Leonard Soicher
-
-London, 4 December 2024
+This repository is Copyright 2024 Leonard Soicher, all rights reserved.
