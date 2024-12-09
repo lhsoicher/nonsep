@@ -16,7 +16,7 @@ gap> if not IsSubset([2..4095],degrees_to_check) then
 > fi;
 gap> LoadPackage("grape");
 ─────────────────────────────────────────────────────────────────────────────
-Loading  GRAPE 4.9.2 (GRaph Algorithms using PErmutation groups)
+Loading GRAPE 4.9.2 (GRaph Algorithms using PErmutation groups)
 by Leonard H. Soicher (https://webspace.maths.qmul.ac.uk/l.h.soicher/).
 Homepage: https://gap-packages.github.io/grape
 Report issues at https://github.com/gap-packages/grape/issues
@@ -24,7 +24,7 @@ Report issues at https://github.com/gap-packages/grape/issues
 true
 gap> LoadPackage("design");
 ─────────────────────────────────────────────────────────────────────────────
-Loading  DESIGN 1.8.2 (The Design Package for GAP)
+Loading DESIGN 1.8.2 (The Design Package for GAP)
 by Leonard H. Soicher (https://webspace.maths.qmul.ac.uk/l.h.soicher/).
 Homepage: https://gap-packages.github.io/design
 Report issues at https://github.com/gap-packages/design/issues
@@ -32,7 +32,7 @@ Report issues at https://github.com/gap-packages/design/issues
 true
 gap> LoadPackage("fining"); 
 ─────────────────────────────────────────────────────────────────────────────
-Loading  cvec 2.7.6 (Compact vectors over finite fields)
+Loading cvec 2.8.2 (Compact vectors over finite fields)
 by Max Neunhöffer (http://www-groups.mcs.st-and.ac.uk/~neunhoef).
 maintained by:
    Max Horn (https://www.quendi.de/math).
@@ -46,7 +46,7 @@ Report issues at https://github.com/gap-packages/cvec/issues
              _  __/   _  / _  / / /_/ /  _  / / / /_/ /              
              /_/      /_/  /_/ /_//___/  /_/ /_/____/               
 ---------------------------------------------------------------------
-Loading  FinInG 1.5.4 (Finite Incidence Geometry) 
+Loading  FinInG 1.5.6 (Finite Incidence Geometry) 
 by John Bamberg (http://school.maths.uwa.edu.au/~bamberg/)
    Anton Betten (http://www.math.colostate.edu/~betten)
    Philippe Cara (http://homepages.vub.ac.be/~pcara)
@@ -58,7 +58,21 @@ For help, type: ?FinInG
 true
 gap> LoadPackage("agt");
 ─────────────────────────────────────────────────────────────────────────────
-Loading  datastructures 0.3.0 (datastructures - GAP Data Structures)
+Loading AutoDoc 2023.06.19 (Generate documentation from GAP source code)
+by Sebastian Gutsche (https://algebra.mathematik.uni-siegen.de/gutsche/) and
+   Max Horn (https://www.quendi.de/math).
+with contributions by:
+   Mohamed Barakat,
+   Markus Pfeiffer,
+   Øystein Skartsæterhagen,
+   Chris Wensley,
+   Glen Whitney, and
+   Fabian Zickgraf.
+Homepage: https://gap-packages.github.io/AutoDoc
+Report issues at https://github.com/gap-packages/AutoDoc/issues
+─────────────────────────────────────────────────────────────────────────────
+─────────────────────────────────────────────────────────────────────────────
+Loading datastructures 0.3.1 (datastructures - GAP Data Structures)
 by Markus Pfeiffer (http://www.morphism.de/~markusp),
    Max Horn (https://www.quendi.de/math),
    Christopher Jefferson (http://caj.host.cs.st-andrews.ac.uk/), and
@@ -66,49 +80,55 @@ by Markus Pfeiffer (http://www.morphism.de/~markusp),
 Homepage: https://gap-packages.github.io/datastructures
 Report issues at https://github.com/gap-packages/datastructures/issues
 ─────────────────────────────────────────────────────────────────────────────
-─────────────────────────────────────────────────────────────────────────────
-Loading  Digraphs 1.6.1 (Digraphs - Methods for digraphs)
-by Jan De Beule (http://homepages.vub.ac.be/~jdbeule/),
-   Joe Edwards (https://github.com/Joseph-Edwards),
-   Julius Jonusas (http://julius.jonusas.work),
-   James Mitchell (https://jdbm.me),
-   Maria Tsalakou (https://mariatsalakou.github.io/),
-   Wilf A. Wilson (https://wilf.me), and
-   Michael Young (https://mct25.host.cs.st-andrews.ac.uk).
+#I  ReadPackage could not read <digraphs>/gap/doc.g
+
+-----------------------------------------------------------------------------
+Loading Digraphs 1.9.0
+by:
+     Jan De Beule (http://homepages.vub.ac.be/~jdbeule/),
+     Julius Jonusas (http://julius.jonusas.work),
+     James Mitchell (https://jdbm.me),
+     Wilf A. Wilson (https://wilf.me),
+     Michael Young (https://mct25.host.cs.st-andrews.ac.uk)
 with contributions by:
-   Marina Anagnostopoulou-Merkouri (mam49@st-andrews.ac.uk),
-   Finn Buck (finneganlbuck@gmail.com),
-   Stuart Burrell (https://stuartburrell.github.io),
-   Graham Campbell,
-   Reinis Cirpons (rc234@st-andrews.ac.uk),
-   Ashley Clayton (ac323@st-andrews.ac.uk),
-   Tom Conti-Leslie (https://tomcontileslie.com),
-   Luke Elliott (le27@st-andrews.ac.uk),
-   Isuru Fernando (isuruf@gmail.com),
-   Ewan Gilligan (eg207@st-andrews.ac.uk),
-   Sebastian Gutsche (gutsche@momo.math.rwth-aachen.de),
-   Samantha Harper (seh25@st-andrews.ac.uk),
-   Max Horn (https://www.quendi.de/math),
-   Christopher Jefferson (https://caj.host.cs.st-andrews.ac.uk),
-   Olexandr Konovalov (https://www.st-andrews.ac.uk/computer-science/people/obk1/),
-   Andrea Lee (ahwl1@st-andrews.ac.uk),
-   Markus Pfeiffer (https://www.morphism.de/~markusp/),
-   Lea Racine (lr217@st-andrews.ac.uk),
-   Christopher Russell,
-   Artur Schaefer (as305@st-and.ac.uk),
-   Isabella Scott (iscott@uchicago.edu),
-   Kamran Sharma (kks4@st-andrews.ac.uk),
-   Finn Smith (fls3@st-andrews.ac.uk),
-   Ben Spiers (bspiers972@outlook.com), and
-   Murray Whyte (mw231@st-andrews.ac.uk).
-maintained by:
-   James Mitchell (https://jdbm.me) and
-   Wilf A. Wilson (https://wilf.me).
-Homepage: https://digraphs.github.io/Digraphs
-Report issues at https://github.com/digraphs/Digraphs/issues
+     Marina Anagnostopoulou-Merkouri,
+     Finn Buck,
+     Stuart Burrell (https://stuartburrell.github.io),
+     Graham Campbell,
+     Raiyan Chowdhury,
+     Reinis Cirpons,
+     Ashley Clayton,
+     Tom Conti-Leslie (https://tomcontileslie.com),
+     Joseph Edwards (https://github.com/Joseph-Edwards),
+     Luna Elliott,
+     Isuru Fernando,
+     Ewan Gilligan,
+     Sebastian Gutsche,
+     Samantha Harper,
+     Max Horn (https://www.quendi.de/math),
+     Christopher Jefferson (https://caj.host.cs.st-andrews.ac.uk),
+     Olexandr Konovalov (https://olexandr-konovalov.github.io/),
+     Hyeokjun Kwon,
+     Andrea Lee,
+     Saffron McIver,
+     Michael Orlitzky (https://michael.orlitzky.com/),
+     Matthew Pancer,
+     Markus Pfeiffer (https://markusp.morphism.de/),
+     Daniel Pointon,
+     Lea Racine,
+     Christopher Russell,
+     Artur Schaefer,
+     Isabella Scott,
+     Kamran Sharma,
+     Finn Smith,
+     Ben Spiers,
+     Maria Tsalakou (https://mariatsalakou.github.io/),
+     Meike Weiss (https://bit.ly/4e6pUeP),
+     Murray Whyte,
+ and Fabian Zickgraf.
+-----------------------------------------------------------------------------
 ─────────────────────────────────────────────────────────────────────────────
-─────────────────────────────────────────────────────────────────────────────
-Loading  AGT 0.3 (Algebraic Graph Theory)
+Loading AGT 0.3.1 (Algebraic Graph Theory)
 by Rhys J. Evans (https://rhysje00.github.io/).
 Homepage: https://gap-packages.github.io/agt
 Report issues at https://github.com/gap-packages/AGT/issues
@@ -858,8 +878,8 @@ gap> if ovoids<>[] then
 > fi;
 gap> 
 gap> Runtimes();
-rec( system_time := 1490, system_time_children := 61, user_time := 454205, 
-  user_time_children := 217 )
+rec( system_time := 1535, system_time_children := 63, user_time := 466694, 
+  user_time_children := 226 )
 gap> #
 gap> # Now comes the general computation. 
 gap> #
@@ -1303,52 +1323,52 @@ Syntax warning: Unbound global variable
 
 nonsep_count=0
 nonsynch_count=0
-runtime so far in milliseconds=454214
+runtime so far in milliseconds=466704
 
 n=2 is prime. All prime degree groups are separating.
 
 nonsep_count=0
 nonsynch_count=0
-runtime so far in milliseconds=454214
+runtime so far in milliseconds=466704
 
 n=3 is prime. All prime degree groups are separating.
 
 nonsep_count=0
 nonsynch_count=0
-runtime so far in milliseconds=454214
+runtime so far in milliseconds=466704
 
 n=4
 G=[ S(4), A(4) ]
 
 nonsep_count=0
 nonsynch_count=0
-runtime so far in milliseconds=454214
+runtime so far in milliseconds=466704
 
 n=5 is prime. All prime degree groups are separating.
 
 nonsep_count=0
 nonsynch_count=0
-runtime so far in milliseconds=454214
+runtime so far in milliseconds=466704
 
 n=6
 G=[ S(6), A(6), PGL(2,5), PSL(2,5) ]
 
 nonsep_count=0
 nonsynch_count=0
-runtime so far in milliseconds=454216
+runtime so far in milliseconds=466707
 
 n=7 is prime. All prime degree groups are separating.
 
 nonsep_count=0
 nonsynch_count=0
-runtime so far in milliseconds=454216
+runtime so far in milliseconds=466707
 
 n=8
 G=[ S(8), A(8), ASL(3, 2), PGL(2, 7), AGammaL(1, 8), PSL(2, 7), AGL(1, 8) ]
 
 nonsep_count=0
 nonsynch_count=0
-runtime so far in milliseconds=454217
+runtime so far in milliseconds=466709
 
 n=9
 G=[ S(9), A(9), PGammaL(2, 8), PSL(2, 8), AGL(2, 3), 3^2:(2'A(4)), 
@@ -1364,7 +1384,7 @@ tion with some hyperplane (in the minimal normal subgroup)
 
 nonsep_count=2
 nonsynch_count=2
-runtime so far in milliseconds=454245
+runtime so far in milliseconds=466741
 
 n=10
 G=[ S(10), A(10), PGammaL(2, 9), PGL(2, 9), PSigmaL(2, 9), M(10), PSL(2, 9), 
@@ -1372,33 +1392,33 @@ G=[ S(10), A(10), PGammaL(2, 9), PGL(2, 9), PSigmaL(2, 9), M(10), PSL(2, 9),
 
 nonsep_count=2
 nonsynch_count=2
-runtime so far in milliseconds=454263
+runtime so far in milliseconds=466761
 
 n=11 is prime. All prime degree groups are separating.
 
 nonsep_count=2
 nonsynch_count=2
-runtime so far in milliseconds=454263
+runtime so far in milliseconds=466761
 
 n=12
 G=[ S(12), A(12), M(12), M(11), PGL(2, 11), PSL(2, 11) ]
 
 nonsep_count=2
 nonsynch_count=2
-runtime so far in milliseconds=454264
+runtime so far in milliseconds=466763
 
 n=13 is prime. All prime degree groups are separating.
 
 nonsep_count=2
 nonsynch_count=2
-runtime so far in milliseconds=454264
+runtime so far in milliseconds=466763
 
 n=14
 G=[ S(14), A(14), PGL(2,13), PSL(2,13) ]
 
 nonsep_count=2
 nonsynch_count=2
-runtime so far in milliseconds=454266
+runtime so far in milliseconds=466764
 
 n=15
 G=[ S(15), A(15), PSL(4, 2), A(7), S(6), A(6) ]
@@ -1413,7 +1433,7 @@ red or found nonsynchronizing graph having comment: complement of Kneser graph\
 
 nonsep_count=4
 nonsynch_count=4
-runtime so far in milliseconds=454274
+runtime so far in milliseconds=466769
 
 n=16
 G=[ S(16), A(16), 2^4.PSL(4, 2), 2^4.A(7), 2^4.S(6), AGammaL(2, 4), 2^4.A(6), 
@@ -1438,33 +1458,33 @@ ic to a stored or found nonsynchronizing graph having comment: Hamming graph H\
 
 nonsep_count=8
 nonsynch_count=8
-runtime so far in milliseconds=454347
+runtime so far in milliseconds=466850
 
 n=17 is prime. All prime degree groups are separating.
 
 nonsep_count=8
 nonsynch_count=8
-runtime so far in milliseconds=454347
+runtime so far in milliseconds=466850
 
 n=18
 G=[ S(18), A(18), PGL(2,17), PSL(2,17) ]
 
 nonsep_count=8
 nonsynch_count=8
-runtime so far in milliseconds=454350
+runtime so far in milliseconds=466853
 
 n=19 is prime. All prime degree groups are separating.
 
 nonsep_count=8
 nonsynch_count=8
-runtime so far in milliseconds=454350
+runtime so far in milliseconds=466853
 
 n=20
 G=[ S(20), A(20), PGL(2,19), PSL(2,19) ]
 
 nonsep_count=8
 nonsynch_count=8
-runtime so far in milliseconds=454353
+runtime so far in milliseconds=466855
 
 n=21
 G=[ S(21), A(21), PGammaL(3, 4), PGL(3, 4), PSigmaL(3, 4), PSL(3, 4)=M(21), 
@@ -1475,27 +1495,27 @@ n=21  libnr=1  PGL(2, 7) is nonsynchronizing;  nonsynchronizing graph has (v,k\
 
 nonsep_count=9
 nonsynch_count=9
-runtime so far in milliseconds=454377
+runtime so far in milliseconds=466883
 
 n=22
 G=[ S(22), A(22), M(22):2, M(22) ]
 
 nonsep_count=9
 nonsynch_count=9
-runtime so far in milliseconds=454381
+runtime so far in milliseconds=466883
 
 n=23 is prime. All prime degree groups are separating.
 
 nonsep_count=9
 nonsynch_count=9
-runtime so far in milliseconds=454381
+runtime so far in milliseconds=466884
 
 n=24
 G=[ S(24), A(24), M(24), PGL(2, 23), PSL(2, 23) ]
 
 nonsep_count=9
 nonsynch_count=9
-runtime so far in milliseconds=454381
+runtime so far in milliseconds=466885
 
 n=25
 G=[ S(25), A(25), (S(5) x S(5)):2, (A(5) x A(5)):2^2, (A(5) x A(5)):4, 
@@ -1574,7 +1594,7 @@ ction with some hyperplane (in the minimal normal subgroup)
 
 nonsep_count=26
 nonsynch_count=26
-runtime so far in milliseconds=454581
+runtime so far in milliseconds=467110
 
 n=26
 G=[ S(26), A(26), PGammaL(2, 25), PGL(2, 25), PSigmaL(2, 25), PSL(2, 25).2_3, 
@@ -1582,7 +1602,7 @@ G=[ S(26), A(26), PGammaL(2, 25), PGL(2, 25), PSigmaL(2, 25), PSL(2, 25).2_3,
 
 nonsep_count=26
 nonsynch_count=26
-runtime so far in milliseconds=454583
+runtime so far in milliseconds=467113
 
 n=27
 G=[ S(27), A(27), AGL(3, 3), ASL(3, 3), PSp(4, 3):2, PSp(4, 3), 
@@ -1611,7 +1631,7 @@ rsection with some hyperplane (in the minimal normal subgroup)
 
 nonsep_count=31
 nonsynch_count=31
-runtime so far in milliseconds=454898
+runtime so far in milliseconds=467383
 
 n=28
 G=[ S(28), A(28), PSp(6, 2), PGammaL(2, 27), S(8), PSL(2, 27):3, A(8), 
@@ -1632,26 +1652,26 @@ graph K(8,2)
 
 nonsep_count=34
 nonsynch_count=34
-runtime so far in milliseconds=454914
+runtime so far in milliseconds=467408
 
 n=29 is prime. All prime degree groups are separating.
 
 nonsep_count=34
 nonsynch_count=34
-runtime so far in milliseconds=454914
+runtime so far in milliseconds=467408
 
 n=30
 G=[ S(30), A(30), PGL(2,29), PSL(2,29) ]
 
 nonsep_count=34
 nonsynch_count=34
-runtime so far in milliseconds=454917
+runtime so far in milliseconds=467411
 
 n=31 is prime. All prime degree groups are separating.
 
 nonsep_count=34
 nonsynch_count=34
-runtime so far in milliseconds=454918
+runtime so far in milliseconds=467411
 
 n=32
 G=[ S(32), A(32), ASL(5, 2), PGL(2, 31), PSL(2, 31), AGammaL(1, 32), 
@@ -1659,21 +1679,21 @@ G=[ S(32), A(32), ASL(5, 2), PGL(2, 31), PSL(2, 31), AGammaL(1, 32),
 
 nonsep_count=34
 nonsynch_count=34
-runtime so far in milliseconds=454927
+runtime so far in milliseconds=467417
 
 n=33
 G=[ S(33), A(33), PGammaL(2, 32), PSL(2, 32) ]
 
 nonsep_count=34
 nonsynch_count=34
-runtime so far in milliseconds=454928
+runtime so far in milliseconds=467419
 
 n=34
 G=[ S(34), A(34) ]
 
 nonsep_count=34
 nonsynch_count=34
-runtime so far in milliseconds=454929
+runtime so far in milliseconds=467419
 
 n=35
 G=[ S(35), A(35), S(8), A(8), S(7), A(7) ]
@@ -1692,7 +1712,7 @@ red or found nonsynchronizing graph having comment: the line graph of PG(3,2)
 
 nonsep_count=38
 nonsynch_count=38
-runtime so far in milliseconds=454939
+runtime so far in milliseconds=467435
 
 n=36
 G=[ S(36), A(36), PSp(6, 2), (S(6) x S(6)):2, (A(6) x A(6)):2^2, 
@@ -1745,27 +1765,27 @@ a stored or found nonsynchronizing graph having comment: Hamming graph H(2,6)
 
 nonsep_count=49
 nonsynch_count=49
-runtime so far in milliseconds=455078
+runtime so far in milliseconds=467603
 
 n=37 is prime. All prime degree groups are separating.
 
 nonsep_count=49
 nonsynch_count=49
-runtime so far in milliseconds=455078
+runtime so far in milliseconds=467603
 
 n=38
 G=[ S(38), A(38), PGL(2,37), PSL(2,37) ]
 
 nonsep_count=49
 nonsynch_count=49
-runtime so far in milliseconds=455081
+runtime so far in milliseconds=467607
 
 n=39
 G=[ S(39), A(39) ]
 
 nonsep_count=49
 nonsynch_count=49
-runtime so far in milliseconds=455082
+runtime so far in milliseconds=467608
 
 n=40
 G=[ S(40), A(40), PGL(4, 3), PSL(4, 3), PSp(4, 3):2, PSp(4, 3):2, PSp(4, 3), 
@@ -1777,33 +1797,33 @@ n=40  libnr=3  PSp(4, 3) is a nonseparating, but synchronizing, group
 
 nonsep_count=51
 nonsynch_count=49
-runtime so far in milliseconds=455243
+runtime so far in milliseconds=467861
 
 n=41 is prime. All prime degree groups are separating.
 
 nonsep_count=51
 nonsynch_count=49
-runtime so far in milliseconds=455243
+runtime so far in milliseconds=467861
 
 n=42
 G=[ S(42), A(42), PGL(2,41), PSL(2,41) ]
 
 nonsep_count=51
 nonsynch_count=49
-runtime so far in milliseconds=455246
+runtime so far in milliseconds=467864
 
 n=43 is prime. All prime degree groups are separating.
 
 nonsep_count=51
 nonsynch_count=49
-runtime so far in milliseconds=455246
+runtime so far in milliseconds=467864
 
 n=44
 G=[ S(44), A(44), PGL(2,43), PSL(2,43) ]
 
 nonsep_count=51
 nonsynch_count=49
-runtime so far in milliseconds=455249
+runtime so far in milliseconds=467868
 
 n=45
 G=[ S(45), A(45), S(10), A(10), PSp(4, 3):2, PSp(4, 3), PGammaL(2, 9), 
@@ -1839,27 +1859,27 @@ h K(10,2)
 
 nonsep_count=58
 nonsynch_count=56
-runtime so far in milliseconds=455276
+runtime so far in milliseconds=467903
 
 n=46
 G=[ S(46), A(46) ]
 
 nonsep_count=58
 nonsynch_count=56
-runtime so far in milliseconds=455277
+runtime so far in milliseconds=467904
 
 n=47 is prime. All prime degree groups are separating.
 
 nonsep_count=58
 nonsynch_count=56
-runtime so far in milliseconds=455277
+runtime so far in milliseconds=467904
 
 n=48
 G=[ S(48), A(48), PGL(2,47), PSL(2,47) ]
 
 nonsep_count=58
 nonsynch_count=56
-runtime so far in milliseconds=455280
+runtime so far in milliseconds=467907
 
 n=49
 G=[ S(49), A(49), (S(7) x S(7)):2, (A(7) x A(7)):2^2, (A(7) x A(7)):4, 
@@ -1979,7 +1999,7 @@ ction with some hyperplane (in the minimal normal subgroup)
 
 nonsep_count=84
 nonsynch_count=82
-runtime so far in milliseconds=455771
+runtime so far in milliseconds=468412
 
 n=50
 G=[ S(50), A(50), PSU(3, 5):2, PGammaL(2, 49), PSU(3, 5), PGL(2, 49), 
@@ -1987,14 +2007,14 @@ G=[ S(50), A(50), PSU(3, 5):2, PGammaL(2, 49), PSU(3, 5), PGL(2, 49),
 
 nonsep_count=84
 nonsynch_count=82
-runtime so far in milliseconds=455794
+runtime so far in milliseconds=468438
 
 n=51
 G=[ S(51), A(51) ]
 
 nonsep_count=84
 nonsynch_count=82
-runtime so far in milliseconds=455795
+runtime so far in milliseconds=468439
 
 n=52
 G=[ S(52), A(52), PSL(3, 3).2 ]
@@ -2004,20 +2024,20 @@ n=52  libnr=1  PSL(3, 3).2 is nonsynchronizing;  nonsynchronizing graph has (v\
 
 nonsep_count=85
 nonsynch_count=83
-runtime so far in milliseconds=455818
+runtime so far in milliseconds=468461
 
 n=53 is prime. All prime degree groups are separating.
 
 nonsep_count=85
 nonsynch_count=83
-runtime so far in milliseconds=455818
+runtime so far in milliseconds=468461
 
 n=54
 G=[ S(54), A(54), PGL(2,53), PSL(2,53) ]
 
 nonsep_count=85
 nonsynch_count=83
-runtime so far in milliseconds=455822
+runtime so far in milliseconds=468465
 
 n=55
 G=[ S(55), A(55), Sym(11), Alt(11), M(11), PGL(2, 11), PGL(2, 11), PSL(2, 11) 
@@ -2028,7 +2048,7 @@ k,omega) = (55,8,5).
 
 nonsep_count=86
 nonsynch_count=84
-runtime so far in milliseconds=456255
+runtime so far in milliseconds=468944
 
 n=56
 G=[ S(56), A(56), PSL(3, 4).2^2, PSL(3, 4).2_3, PSL(3, 4).2_1, PSL(3, 4).2_2, 
@@ -2043,27 +2063,27 @@ tored or found nonsynchronizing graph having comment: n=56  libnr=7  Sym(8) is\
 
 nonsep_count=88
 nonsynch_count=86
-runtime so far in milliseconds=456338
+runtime so far in milliseconds=469037
 
 n=57
 G=[ S(57), A(57), PSL(3, 7).3, PSL(3, 7), PSL(2, 19) ]
 
 nonsep_count=88
 nonsynch_count=86
-runtime so far in milliseconds=456355
+runtime so far in milliseconds=469053
 
 n=58
 G=[ S(58), A(58) ]
 
 nonsep_count=88
 nonsynch_count=86
-runtime so far in milliseconds=456355
+runtime so far in milliseconds=469053
 
 n=59 is prime. All prime degree groups are separating.
 
 nonsep_count=88
 nonsynch_count=86
-runtime so far in milliseconds=456355
+runtime so far in milliseconds=469053
 
 n=60
 G=[ S(60), A(60), PGL(2,59), PSL(2,59), Alt(5)^2.2^2, Alt(5)^2.2, 
@@ -2086,20 +2106,20 @@ n-Scott type 3a
 
 nonsep_count=93
 nonsynch_count=91
-runtime so far in milliseconds=456516
+runtime so far in milliseconds=469237
 
 n=61 is prime. All prime degree groups are separating.
 
 nonsep_count=93
 nonsynch_count=91
-runtime so far in milliseconds=456516
+runtime so far in milliseconds=469237
 
 n=62
 G=[ S(62), A(62), PGL(2,61), PSL(2,61) ]
 
 nonsep_count=93
 nonsynch_count=91
-runtime so far in milliseconds=456520
+runtime so far in milliseconds=469244
 
 n=63
 G=[ S(63), A(63), PSL(6, 2), PSp(6, 2), PSU(3, 3).2, PSU(3, 3).2, PSU(3, 3), 
@@ -2117,7 +2137,7 @@ n=63  libnr=3  PSU(3, 3) is a nonseparating, but synchronizing, group
 
 nonsep_count=97
 nonsynch_count=93
-runtime so far in milliseconds=456859
+runtime so far in milliseconds=469618
 
 n=64
 G=[ S(64), A(64), AGL(6, 2), Sym(8) wreath Sym(2), Alt(8)^2.2^2, Alt(8)^2.4, 
@@ -2310,7 +2330,7 @@ ored or found nonsynchronizing graph having comment: Hamming graph H(3,4)
 
 nonsep_count=145
 nonsynch_count=141
-runtime so far in milliseconds=457601
+runtime so far in milliseconds=470334
 
 n=65
 G=[ S(65), A(65), PGammaL(2, 2^6), PSL(2, 2^6).3, PSL(2, 2^6).2, PSL(2, 2^6), 
@@ -2319,7 +2339,7 @@ G=[ S(65), A(65), PGammaL(2, 2^6), PSL(2, 2^6).3, PSL(2, 2^6).2, PSL(2, 2^6),
 
 nonsep_count=145
 nonsynch_count=141
-runtime so far in milliseconds=457660
+runtime so far in milliseconds=470389
 
 n=66
 G=[ S(66), A(66), Sym(12), Alt(12), M(12), M(11), PGL(2, 11) ]
@@ -2346,13 +2366,13 @@ n=66  libnr=1  PGL(2, 11) is a group of automorphisms of a graph isomorphic to\
 
 nonsep_count=150
 nonsynch_count=146
-runtime so far in milliseconds=457705
+runtime so far in milliseconds=470431
 
 n=67 is prime. All prime degree groups are separating.
 
 nonsep_count=150
 nonsynch_count=146
-runtime so far in milliseconds=457705
+runtime so far in milliseconds=470431
 
 n=68
 G=[ S(68), A(68), PGL(2,67), PSL(2,67), PSigmaL(2, 16), PSL(2, 16).2, 
@@ -2360,88 +2380,88 @@ G=[ S(68), A(68), PGL(2,67), PSL(2,67), PSigmaL(2, 16), PSL(2, 16).2,
 
 nonsep_count=150
 nonsynch_count=146
-runtime so far in milliseconds=457849
+runtime so far in milliseconds=470576
 
 n=69
 G=[ S(69), A(69) ]
 
 nonsep_count=150
 nonsynch_count=146
-runtime so far in milliseconds=457849
+runtime so far in milliseconds=470577
 
 n=70
 G=[ S(70), A(70) ]
 
 nonsep_count=150
 nonsynch_count=146
-runtime so far in milliseconds=457849
+runtime so far in milliseconds=470577
 
 n=71 is prime. All prime degree groups are separating.
 
 nonsep_count=150
 nonsynch_count=146
-runtime so far in milliseconds=457849
+runtime so far in milliseconds=470577
 
 n=72
 G=[ S(72), A(72), PGL(2,71), PSL(2,71) ]
 
 nonsep_count=150
 nonsynch_count=146
-runtime so far in milliseconds=457854
+runtime so far in milliseconds=470582
 
 n=73 is prime. All prime degree groups are separating.
 
 nonsep_count=150
 nonsynch_count=146
-runtime so far in milliseconds=457854
+runtime so far in milliseconds=470583
 
 n=74
 G=[ S(74), A(74), PGL(2,73), PSL(2,73) ]
 
 nonsep_count=150
 nonsynch_count=146
-runtime so far in milliseconds=457858
+runtime so far in milliseconds=470587
 
 n=75
 G=[ S(75), A(75) ]
 
 nonsep_count=150
 nonsynch_count=146
-runtime so far in milliseconds=457858
+runtime so far in milliseconds=470588
 
 n=76
 G=[ S(76), A(76) ]
 
 nonsep_count=150
 nonsynch_count=146
-runtime so far in milliseconds=457858
+runtime so far in milliseconds=470588
 
 n=77
 G=[ S(77), A(77), M(22).2, M(22) ]
 
 nonsep_count=150
 nonsynch_count=146
-runtime so far in milliseconds=457871
+runtime so far in milliseconds=470601
 
 n=78
 G=[ S(78), A(78), Sym(13), Alt(13), PGL(2, 13), PSL(2, 13) ]
 
 nonsep_count=150
 nonsynch_count=146
-runtime so far in milliseconds=458997
+runtime so far in milliseconds=471838
 
 n=79 is prime. All prime degree groups are separating.
 
 nonsep_count=150
 nonsynch_count=146
-runtime so far in milliseconds=458997
+runtime so far in milliseconds=471838
 
 n=80
 G=[ S(80), A(80), PGL(2,79), PSL(2,79) ]
 
 nonsep_count=150
 nonsynch_count=146
-runtime so far in milliseconds=459002
+runtime so far in milliseconds=471844
 
 n=81
 G=[ S(81), A(81), Sym(9) wreath Sym(2), Alt(9)^2.2^2, Alt(9)^2.4, 
@@ -2897,7 +2917,7 @@ cott type 1
 
 nonsep_count=267
 nonsynch_count=263
-runtime so far in milliseconds=461323
+runtime so far in milliseconds=474338
 
 n=82
 G=[ S(82), A(82), PGammaL(2, 3^4), PSL(2, 3^4).2^2, PSL(2, 3^4).4, 
@@ -2905,13 +2925,13 @@ G=[ S(82), A(82), PGammaL(2, 3^4), PSL(2, 3^4).2^2, PSL(2, 3^4).4,
 
 nonsep_count=267
 nonsynch_count=263
-runtime so far in milliseconds=461335
+runtime so far in milliseconds=474356
 
 n=83 is prime. All prime degree groups are separating.
 
 nonsep_count=267
 nonsynch_count=263
-runtime so far in milliseconds=461335
+runtime so far in milliseconds=474356
 
 n=84
 G=[ S(84), A(84), PGL(2,83), Sym(9), PSL(2,83), Alt(9) ]
@@ -2926,7 +2946,7 @@ ph K(9,3)
 
 nonsep_count=269
 nonsynch_count=265
-runtime so far in milliseconds=461359
+runtime so far in milliseconds=474384
 
 n=85
 G=[ S(85), A(85), PSigmaL(4, 4), PSL(4, 4), PSp(4, 4).2, PSp(4, 4) ]
@@ -2941,41 +2961,41 @@ a stored or found nonsynchronizing graph having comment: the complement of the\
 
 nonsep_count=271
 nonsynch_count=267
-runtime so far in milliseconds=461384
+runtime so far in milliseconds=474416
 
 n=86
 G=[ S(86), A(86) ]
 
 nonsep_count=271
 nonsynch_count=267
-runtime so far in milliseconds=461384
+runtime so far in milliseconds=474416
 
 n=87
 G=[ S(87), A(87) ]
 
 nonsep_count=271
 nonsynch_count=267
-runtime so far in milliseconds=461384
+runtime so far in milliseconds=474416
 
 n=88
 G=[ S(88), A(88) ]
 
 nonsep_count=271
 nonsynch_count=267
-runtime so far in milliseconds=461385
+runtime so far in milliseconds=474416
 
 n=89 is prime. All prime degree groups are separating.
 
 nonsep_count=271
 nonsynch_count=267
-runtime so far in milliseconds=461385
+runtime so far in milliseconds=474417
 
 n=90
 G=[ S(90), A(90), PGL(2,89), PSL(2,89) ]
 
 nonsep_count=271
 nonsynch_count=267
-runtime so far in milliseconds=461391
+runtime so far in milliseconds=474421
 
 n=91
 G=[ S(91), A(91), Sym(14), Alt(14), PGammaL(3, 9), PSL(3, 9), PGL(2, 13), 
@@ -3007,62 +3027,62 @@ n=91  libnr=3  PSL(2, 13) is a group of automorphisms of a graph isomorphic to\
 
 nonsep_count=277
 nonsynch_count=273
-runtime so far in milliseconds=462419
+runtime so far in milliseconds=475439
 
 n=92
 G=[ S(92), A(92) ]
 
 nonsep_count=277
 nonsynch_count=273
-runtime so far in milliseconds=462420
+runtime so far in milliseconds=475440
 
 n=93
 G=[ S(93), A(93) ]
 
 nonsep_count=277
 nonsynch_count=273
-runtime so far in milliseconds=462420
+runtime so far in milliseconds=475440
 
 n=94
 G=[ S(94), A(94) ]
 
 nonsep_count=277
 nonsynch_count=273
-runtime so far in milliseconds=462420
+runtime so far in milliseconds=475440
 
 n=95
 G=[ S(95), A(95) ]
 
 nonsep_count=277
 nonsynch_count=273
-runtime so far in milliseconds=462420
+runtime so far in milliseconds=475441
 
 n=96
 G=[ S(96), A(96) ]
 
 nonsep_count=277
 nonsynch_count=273
-runtime so far in milliseconds=462420
+runtime so far in milliseconds=475441
 
 n=97 is prime. All prime degree groups are separating.
 
 nonsep_count=277
 nonsynch_count=273
-runtime so far in milliseconds=462420
+runtime so far in milliseconds=475441
 
 n=98
 G=[ S(98), A(98), PGL(2,97), PSL(2,97) ]
 
 nonsep_count=277
 nonsynch_count=273
-runtime so far in milliseconds=462432
+runtime so far in milliseconds=475449
 
 n=99
 G=[ S(99), A(99) ]
 
 nonsep_count=277
 nonsynch_count=273
-runtime so far in milliseconds=462432
+runtime so far in milliseconds=475449
 
 n=100
 G=[ S(100), A(100), Sym(10) wreath Sym(2), Alt(10)^2.2^2, Alt(10)^2.4, 
@@ -3205,13 +3225,13 @@ raph H(2,10)
 
 nonsep_count=309
 nonsynch_count=305
-runtime so far in milliseconds=462767
+runtime so far in milliseconds=475821
 
 n=101 is prime. All prime degree groups are separating.
 
 nonsep_count=309
 nonsynch_count=305
-runtime so far in milliseconds=462767
+runtime so far in milliseconds=475821
 
 n=102
 G=[ S(102), A(102), PGL(2, 101), PSL(2, 101), PSL(2, 17) ]
@@ -3221,20 +3241,20 @@ n=102  libnr=1  PSL(2, 17) is nonsynchronizing;  nonsynchronizing graph has (v\
 
 nonsep_count=310
 nonsynch_count=306
-runtime so far in milliseconds=467282
+runtime so far in milliseconds=480307
 
 n=103 is prime. All prime degree groups are separating.
 
 nonsep_count=310
 nonsynch_count=306
-runtime so far in milliseconds=467282
+runtime so far in milliseconds=480307
 
 n=104
 G=[ S(104), A(104), PGL(2,103), PSL(2,103) ]
 
 nonsep_count=310
 nonsynch_count=306
-runtime so far in milliseconds=467287
+runtime so far in milliseconds=480318
 
 n=105
 G=[ S(105), A(105), Sym(15), Alt(15), PSL(3, 4).D_12, PSL(3, 4).Sym(3), 
@@ -3275,47 +3295,47 @@ ey have no part in common
 
 nonsep_count=317
 nonsynch_count=313
-runtime so far in milliseconds=467449
+runtime so far in milliseconds=480499
 
 n=106
 G=[ S(106), A(106) ]
 
 nonsep_count=317
 nonsynch_count=313
-runtime so far in milliseconds=467449
+runtime so far in milliseconds=480500
 
 n=107 is prime. All prime degree groups are separating.
 
 nonsep_count=317
 nonsynch_count=313
-runtime so far in milliseconds=467449
+runtime so far in milliseconds=480500
 
 n=108
 G=[ S(108), A(108), PGL(2,107), PSL(2,107) ]
 
 nonsep_count=317
 nonsynch_count=313
-runtime so far in milliseconds=467458
+runtime so far in milliseconds=480505
 
 n=109 is prime. All prime degree groups are separating.
 
 nonsep_count=317
 nonsynch_count=313
-runtime so far in milliseconds=467458
+runtime so far in milliseconds=480505
 
 n=110
 G=[ S(110), A(110), PGL(2,109), PSL(2,109) ]
 
 nonsep_count=317
 nonsynch_count=313
-runtime so far in milliseconds=467462
+runtime so far in milliseconds=480510
 
 n=111
 G=[ S(111), A(111) ]
 
 nonsep_count=317
 nonsynch_count=313
-runtime so far in milliseconds=467463
+runtime so far in milliseconds=480510
 
 n=112
 G=[ S(112), A(112), PSU(4, 3).D_8, PSU(4, 3).2^2, PSU(4, 3).4, PSU(4, 3).2^2, 
@@ -3323,34 +3343,34 @@ G=[ S(112), A(112), PSU(4, 3).D_8, PSU(4, 3).2^2, PSU(4, 3).4, PSU(4, 3).2^2,
 
 nonsep_count=317
 nonsynch_count=313
-runtime so far in milliseconds=467664
+runtime so far in milliseconds=480735
 
 n=113 is prime. All prime degree groups are separating.
 
 nonsep_count=317
 nonsynch_count=313
-runtime so far in milliseconds=467664
+runtime so far in milliseconds=480735
 
 n=114
 G=[ S(114), A(114), PGL(2,113), PSL(2,113) ]
 
 nonsep_count=317
 nonsynch_count=313
-runtime so far in milliseconds=467674
+runtime so far in milliseconds=480747
 
 n=115
 G=[ S(115), A(115) ]
 
 nonsep_count=317
 nonsynch_count=313
-runtime so far in milliseconds=467675
+runtime so far in milliseconds=480747
 
 n=116
 G=[ S(116), A(116) ]
 
 nonsep_count=317
 nonsynch_count=313
-runtime so far in milliseconds=467675
+runtime so far in milliseconds=480748
 
 n=117
 G=[ S(117), A(117), PSL(4, 3).2, PSL(4, 3), PSL(3, 3).2 ]
@@ -3360,21 +3380,21 @@ v,k,omega) = (117,16,9).
 
 nonsep_count=318
 nonsynch_count=314
-runtime so far in milliseconds=467746
+runtime so far in milliseconds=480832
 
 n=118
 G=[ S(118), A(118) ]
 
 nonsep_count=318
 nonsynch_count=314
-runtime so far in milliseconds=467746
+runtime so far in milliseconds=480832
 
 n=119
 G=[ S(119), A(119), PSO-(8, 2), O-(8, 2) ]
 
 nonsep_count=318
 nonsynch_count=314
-runtime so far in milliseconds=467814
+runtime so far in milliseconds=480925
 
 n=120
 G=[ S(120), A(120), Sym(16), Alt(16), PSp(8, 2), PSO+(8, 2), O+(8, 2), 
@@ -3399,7 +3419,7 @@ stored or found nonsynchronizing graph having comment: n=120  libnr=11  Sym(8)\
 
 nonsep_count=322
 nonsynch_count=318
-runtime so far in milliseconds=470277
+runtime so far in milliseconds=483383
 
 n=121
 G=[ S(121), A(121), Sym(11) wreath Sym(2), Alt(11)^2.2^2, Alt(11)^2.4, 
@@ -3569,7 +3589,7 @@ section with some hyperplane (in the minimal normal subgroup)
 
 nonsep_count=360
 nonsynch_count=356
-runtime so far in milliseconds=471826
+runtime so far in milliseconds=484958
 
 n=122
 G=[ S(122), A(122), PGammaL(2, 11^2), PGL(2, 11^2), PSigmaL(2, 11^2), 
@@ -3577,21 +3597,21 @@ G=[ S(122), A(122), PGammaL(2, 11^2), PGL(2, 11^2), PSigmaL(2, 11^2),
 
 nonsep_count=360
 nonsynch_count=356
-runtime so far in milliseconds=471832
+runtime so far in milliseconds=484963
 
 n=123
 G=[ S(123), A(123) ]
 
 nonsep_count=360
 nonsynch_count=356
-runtime so far in milliseconds=471832
+runtime so far in milliseconds=484963
 
 n=124
 G=[ S(124), A(124) ]
 
 nonsep_count=360
 nonsynch_count=356
-runtime so far in milliseconds=471832
+runtime so far in milliseconds=484964
 
 n=125
 G=[ S(125), A(125), AGL(3, 5), 5^3:(SL(3, 5):2), ASL(3, 5), 
@@ -3745,7 +3765,7 @@ ntersection with some hyperplane (in the minimal normal subgroup)
 
 nonsep_count=394
 nonsynch_count=390
-runtime so far in milliseconds=476417
+runtime so far in milliseconds=489815
 
 n=126
 G=[ S(126), A(126), PSU(4, 3).2^2, PSU(4, 3).2, PSU(4, 3).2, PSU(4, 3).2, 
@@ -3762,13 +3782,13 @@ n=126  libnr=12  Alt(9) is a group of automorphisms of a graph isomorphic to a\
 
 nonsep_count=396
 nonsynch_count=392
-runtime so far in milliseconds=476765
+runtime so far in milliseconds=490202
 
 n=127 is prime. All prime degree groups are separating.
 
 nonsep_count=396
 nonsynch_count=392
-runtime so far in milliseconds=476765
+runtime so far in milliseconds=490202
 
 n=128
 G=[ S(128), A(128), AGL(7, 2), PGL(2, 127), PSL(2, 127), AGammaL(1, 2^7), 
@@ -3776,14 +3796,14 @@ G=[ S(128), A(128), AGL(7, 2), PGL(2, 127), PSL(2, 127), AGammaL(1, 2^7),
 
 nonsep_count=396
 nonsynch_count=392
-runtime so far in milliseconds=476775
+runtime so far in milliseconds=490209
 
 n=129
 G=[ S(129), A(129), PGammaL(2, 2^7), PSL(2, 2^7) ]
 
 nonsep_count=396
 nonsynch_count=392
-runtime so far in milliseconds=476778
+runtime so far in milliseconds=490212
 
 n=130
 G=[ S(130), A(130), PSL(4, 3).2^2, PSL(4, 3).2, PGL(4, 3), PSL(4, 3).2, 
@@ -3811,34 +3831,34 @@ n=130  libnr=1  PSL(4, 3) is a group of automorphisms of a graph isomorphic to\
 
 nonsep_count=401
 nonsynch_count=397
-runtime so far in milliseconds=476844
+runtime so far in milliseconds=490282
 
 n=131 is prime. All prime degree groups are separating.
 
 nonsep_count=401
 nonsynch_count=397
-runtime so far in milliseconds=476844
+runtime so far in milliseconds=490282
 
 n=132
 G=[ S(132), A(132), PGL(2,131), PSL(2,131) ]
 
 nonsep_count=401
 nonsynch_count=397
-runtime so far in milliseconds=476850
+runtime so far in milliseconds=490288
 
 n=133
 G=[ S(133), A(133), PSL(3, 11) ]
 
 nonsep_count=401
 nonsynch_count=397
-runtime so far in milliseconds=476852
+runtime so far in milliseconds=490288
 
 n=134
 G=[ S(134), A(134) ]
 
 nonsep_count=401
 nonsynch_count=397
-runtime so far in milliseconds=476852
+runtime so far in milliseconds=490289
 
 n=135
 G=[ S(135), A(135), PSO+(8, 2), O+(8, 2), PSp(6, 2) ]
@@ -3858,7 +3878,7 @@ n=135  libnr=1  PSp(6, 2) is a group of automorphisms of a graph isomorphic to\
 
 nonsep_count=404
 nonsynch_count=400
-runtime so far in milliseconds=477081
+runtime so far in milliseconds=490419
 
 n=136
 G=[ S(136), A(136), Sym(17), Alt(17), PSp(8, 2), PSO-(8, 2), O-(8, 2), 
@@ -3867,54 +3887,54 @@ G=[ S(136), A(136), Sym(17), Alt(17), PSp(8, 2), PSO-(8, 2), O-(8, 2),
 
 nonsep_count=404
 nonsynch_count=400
-runtime so far in milliseconds=799945
+runtime so far in milliseconds=807790
 
 n=137 is prime. All prime degree groups are separating.
 
 nonsep_count=404
 nonsynch_count=400
-runtime so far in milliseconds=799945
+runtime so far in milliseconds=807790
 
 n=138
 G=[ S(138), A(138), PGL(2,137), PSL(2,137) ]
 
 nonsep_count=404
 nonsynch_count=400
-runtime so far in milliseconds=799951
+runtime so far in milliseconds=807796
 
 n=139 is prime. All prime degree groups are separating.
 
 nonsep_count=404
 nonsynch_count=400
-runtime so far in milliseconds=799951
+runtime so far in milliseconds=807796
 
 n=140
 G=[ S(140), A(140), PGL(2,139), PSL(2,139) ]
 
 nonsep_count=404
 nonsynch_count=400
-runtime so far in milliseconds=799956
+runtime so far in milliseconds=807801
 
 n=141
 G=[ S(141), A(141) ]
 
 nonsep_count=404
 nonsynch_count=400
-runtime so far in milliseconds=799957
+runtime so far in milliseconds=807802
 
 n=142
 G=[ S(142), A(142) ]
 
 nonsep_count=404
 nonsynch_count=400
-runtime so far in milliseconds=799957
+runtime so far in milliseconds=807802
 
 n=143
 G=[ S(143), A(143) ]
 
 nonsep_count=404
 nonsynch_count=400
-runtime so far in milliseconds=799957
+runtime so far in milliseconds=807802
 
 n=144
 G=[ S(144), A(144), Sym(12) wreath Sym(2), Alt(12)^2.2^2, Alt(12)^2.4, 
@@ -3974,61 +3994,61 @@ is nonsynchronizing;  nonsynchronizing graph has (v,k,omega) = (144,66,12).
 
 nonsep_count=417
 nonsynch_count=413
-runtime so far in milliseconds=800982
+runtime so far in milliseconds=808897
 
 n=145
 G=[ S(145), A(145) ]
 
 nonsep_count=417
 nonsynch_count=413
-runtime so far in milliseconds=800982
+runtime so far in milliseconds=808897
 
 n=146
 G=[ S(146), A(146) ]
 
 nonsep_count=417
 nonsynch_count=413
-runtime so far in milliseconds=800982
+runtime so far in milliseconds=808898
 
 n=147
 G=[ S(147), A(147) ]
 
 nonsep_count=417
 nonsynch_count=413
-runtime so far in milliseconds=800983
+runtime so far in milliseconds=808898
 
 n=148
 G=[ S(148), A(148) ]
 
 nonsep_count=417
 nonsynch_count=413
-runtime so far in milliseconds=800983
+runtime so far in milliseconds=808898
 
 n=149 is prime. All prime degree groups are separating.
 
 nonsep_count=417
 nonsynch_count=413
-runtime so far in milliseconds=800983
+runtime so far in milliseconds=808898
 
 n=150
 G=[ S(150), A(150), PGL(2,149), PSL(2,149) ]
 
 nonsep_count=417
 nonsynch_count=413
-runtime so far in milliseconds=800989
+runtime so far in milliseconds=808905
 
 n=151 is prime. All prime degree groups are separating.
 
 nonsep_count=417
 nonsynch_count=413
-runtime so far in milliseconds=800989
+runtime so far in milliseconds=808905
 
 n=152
 G=[ S(152), A(152), PGL(2,151), PSL(2,151) ]
 
 nonsep_count=417
 nonsynch_count=413
-runtime so far in milliseconds=800995
+runtime so far in milliseconds=808911
 
 n=153
 G=[ S(153), A(153), Sym(18), Alt(18), PGL(2, 17), PSL(2, 17) ]
@@ -4051,21 +4071,21 @@ r graph K(18,2)
 
 nonsep_count=421
 nonsynch_count=417
-runtime so far in milliseconds=802711
+runtime so far in milliseconds=810741
 
 n=154
 G=[ S(154), A(154) ]
 
 nonsep_count=421
 nonsynch_count=417
-runtime so far in milliseconds=802711
+runtime so far in milliseconds=810742
 
 n=155
 G=[ S(155), A(155), PSL(5, 2) ]
 
 nonsep_count=421
 nonsynch_count=417
-runtime so far in milliseconds=802736
+runtime so far in milliseconds=810771
 
 n=156
 G=[ S(156), A(156), PGL(4, 5), PSL(4, 5).2, PSL(4, 5), PSp(4, 5).2, 
@@ -4077,41 +4097,41 @@ n=156  libnr=3  PSp(4, 5) is a nonseparating, but synchronizing, group
 
 nonsep_count=423
 nonsynch_count=417
-runtime so far in milliseconds=803707
+runtime so far in milliseconds=811602
 
 n=157 is prime. All prime degree groups are separating.
 
 nonsep_count=423
 nonsynch_count=417
-runtime so far in milliseconds=803707
+runtime so far in milliseconds=811602
 
 n=158
 G=[ S(158), A(158), PGL(2,157), PSL(2,157) ]
 
 nonsep_count=423
 nonsynch_count=417
-runtime so far in milliseconds=803713
+runtime so far in milliseconds=811608
 
 n=159
 G=[ S(159), A(159) ]
 
 nonsep_count=423
 nonsynch_count=417
-runtime so far in milliseconds=803713
+runtime so far in milliseconds=811608
 
 n=160
 G=[ S(160), A(160) ]
 
 nonsep_count=423
 nonsynch_count=417
-runtime so far in milliseconds=803713
+runtime so far in milliseconds=811609
 
 n=161
 G=[ S(161), A(161) ]
 
 nonsep_count=423
 nonsynch_count=417
-runtime so far in milliseconds=803714
+runtime so far in milliseconds=811609
 
 n=162
 G=[ S(162), A(162), PSU(4, 3).2^2, PSU(4, 3).2, PSU(4, 3).2, PSU(4, 3).2, 
@@ -4119,40 +4139,40 @@ G=[ S(162), A(162), PSU(4, 3).2^2, PSU(4, 3).2, PSU(4, 3).2, PSU(4, 3).2,
 
 nonsep_count=423
 nonsynch_count=417
-runtime so far in milliseconds=803868
+runtime so far in milliseconds=811755
 
 n=163 is prime. All prime degree groups are separating.
 
 nonsep_count=423
 nonsynch_count=417
-runtime so far in milliseconds=803868
+runtime so far in milliseconds=811755
 
 n=164
 G=[ S(164), A(164), PGL(2,163), PSL(2,163) ]
 
 nonsep_count=423
 nonsynch_count=417
-runtime so far in milliseconds=803874
+runtime so far in milliseconds=811761
 
 n=165
 G=[ S(165), A(165), Sym(11), PGammaU(5, 2), Alt(11), PSU(5, 2), M(11) ]
 
 nonsep_count=423
 nonsynch_count=417
-runtime so far in milliseconds=804736
+runtime so far in milliseconds=812550
 
 n=166
 G=[ S(166), A(166) ]
 
 nonsep_count=423
 nonsynch_count=417
-runtime so far in milliseconds=804736
+runtime so far in milliseconds=812550
 
 n=167 is prime. All prime degree groups are separating.
 
 nonsep_count=423
 nonsynch_count=417
-runtime so far in milliseconds=804736
+runtime so far in milliseconds=812550
 
 n=168
 G=[ S(168), A(168), PGL(2,167), PSL(2,167), PSL(2, 7)^2.2^2, PSL(2, 7)^2.2, 
@@ -4175,7 +4195,7 @@ O'Nan-Scott type 3a
 
 nonsep_count=428
 nonsynch_count=422
-runtime so far in milliseconds=805174
+runtime so far in milliseconds=813020
 
 n=169
 G=[ S(169), A(169), Sym(13) wreath Sym(2), Alt(13)^2.2^2, Alt(13)^2.4, 
@@ -4442,7 +4462,7 @@ ersection with some hyperplane (in the minimal normal subgroup)
 
 nonsep_count=489
 nonsynch_count=483
-runtime so far in milliseconds=808503
+runtime so far in milliseconds=816330
 
 n=170
 G=[ S(170), A(170), PGammaL(2, 13^2), PGL(2, 13^2), PSigmaL(2, 13^2), 
@@ -4450,34 +4470,34 @@ G=[ S(170), A(170), PGammaL(2, 13^2), PGL(2, 13^2), PSigmaL(2, 13^2),
 
 nonsep_count=489
 nonsynch_count=483
-runtime so far in milliseconds=808510
+runtime so far in milliseconds=816337
 
 n=171
 G=[ S(171), A(171), Sym(19), Alt(19), PGL(2, 19), PSL(2, 19) ]
 
 nonsep_count=489
 nonsynch_count=483
-runtime so far in milliseconds=838369
+runtime so far in milliseconds=846307
 
 n=172
 G=[ S(172), A(172) ]
 
 nonsep_count=489
 nonsynch_count=483
-runtime so far in milliseconds=838369
+runtime so far in milliseconds=846307
 
 n=173 is prime. All prime degree groups are separating.
 
 nonsep_count=489
 nonsynch_count=483
-runtime so far in milliseconds=838369
+runtime so far in milliseconds=846307
 
 n=174
 G=[ S(174), A(174), PGL(2,173), PSL(2,173) ]
 
 nonsep_count=489
 nonsynch_count=483
-runtime so far in milliseconds=838376
+runtime so far in milliseconds=846317
 
 n=175
 G=[ S(175), A(175), PSigmaU(3, 5), PSU(3, 5), PSigmaL(2, 7^2), PSL(2, 7^2) ]
@@ -4492,75 +4512,75 @@ n=175  libnr=3  PSU(3, 5) is a group of automorphisms of a graph isomorphic to\
 
 nonsep_count=491
 nonsynch_count=485
-runtime so far in milliseconds=838731
+runtime so far in milliseconds=846699
 
 n=176
 G=[ S(176), A(176), HS, PGammaU(5, 2), PSU(5, 2), M(22) ]
 
 nonsep_count=491
 nonsynch_count=485
-runtime so far in milliseconds=838803
+runtime so far in milliseconds=846782
 
 n=177
 G=[ S(177), A(177) ]
 
 nonsep_count=491
 nonsynch_count=485
-runtime so far in milliseconds=838804
+runtime so far in milliseconds=846783
 
 n=178
 G=[ S(178), A(178) ]
 
 nonsep_count=491
 nonsynch_count=485
-runtime so far in milliseconds=838806
+runtime so far in milliseconds=846783
 
 n=179 is prime. All prime degree groups are separating.
 
 nonsep_count=491
 nonsynch_count=485
-runtime so far in milliseconds=838806
+runtime so far in milliseconds=846783
 
 n=180
 G=[ S(180), A(180), PGL(2,179), PSL(2,179) ]
 
 nonsep_count=491
 nonsynch_count=485
-runtime so far in milliseconds=838813
+runtime so far in milliseconds=846791
 
 n=181 is prime. All prime degree groups are separating.
 
 nonsep_count=491
 nonsynch_count=485
-runtime so far in milliseconds=838813
+runtime so far in milliseconds=846791
 
 n=182
 G=[ S(182), A(182), PGL(2,181), PSL(2,181) ]
 
 nonsep_count=491
 nonsynch_count=485
-runtime so far in milliseconds=838819
+runtime so far in milliseconds=846797
 
 n=183
 G=[ S(183), A(183), PGammaL(3, 13), PSL(3, 13) ]
 
 nonsep_count=491
 nonsynch_count=485
-runtime so far in milliseconds=838822
+runtime so far in milliseconds=846800
 
 n=184
 G=[ S(184), A(184) ]
 
 nonsep_count=491
 nonsynch_count=485
-runtime so far in milliseconds=838822
+runtime so far in milliseconds=846801
 
 n=185
 G=[ S(185), A(185) ]
 
 nonsep_count=491
 nonsynch_count=485
-runtime so far in milliseconds=838823
+runtime so far in milliseconds=846801
 
 n=186
 G=[ S(186), A(186), PSL(3, 5).2 ]
@@ -4570,28 +4590,28 @@ v,k,omega) = (186,10,6).
 
 nonsep_count=492
 nonsynch_count=486
-runtime so far in milliseconds=842090
+runtime so far in milliseconds=850106
 
 n=187
 G=[ S(187), A(187) ]
 
 nonsep_count=492
 nonsynch_count=486
-runtime so far in milliseconds=842090
+runtime so far in milliseconds=850106
 
 n=188
 G=[ S(188), A(188) ]
 
 nonsep_count=492
 nonsynch_count=486
-runtime so far in milliseconds=842090
+runtime so far in milliseconds=850107
 
 n=189
 G=[ S(189), A(189) ]
 
 nonsep_count=492
 nonsynch_count=486
-runtime so far in milliseconds=842091
+runtime so far in milliseconds=850107
 
 n=190
 G=[ S(190), A(190), Sym(20), Alt(20), PGL(2, 19), PSL(2, 19) ]
@@ -4614,40 +4634,40 @@ r graph K(20,2)
 
 nonsep_count=496
 nonsynch_count=490
-runtime so far in milliseconds=844595
+runtime so far in milliseconds=852723
 
 n=191 is prime. All prime degree groups are separating.
 
 nonsep_count=496
 nonsynch_count=490
-runtime so far in milliseconds=844595
+runtime so far in milliseconds=852723
 
 n=192
 G=[ S(192), A(192), PGL(2,191), PSL(2,191) ]
 
 nonsep_count=496
 nonsynch_count=490
-runtime so far in milliseconds=844605
+runtime so far in milliseconds=852730
 
 n=193 is prime. All prime degree groups are separating.
 
 nonsep_count=496
 nonsynch_count=490
-runtime so far in milliseconds=844605
+runtime so far in milliseconds=852731
 
 n=194
 G=[ S(194), A(194), PGL(2,193), PSL(2,193) ]
 
 nonsep_count=496
 nonsynch_count=490
-runtime so far in milliseconds=844612
+runtime so far in milliseconds=852741
 
 n=195
 G=[ S(195), A(195) ]
 
 nonsep_count=496
 nonsynch_count=490
-runtime so far in milliseconds=844612
+runtime so far in milliseconds=852742
 
 n=196
 G=[ S(196), A(196), Sym(14) wreath Sym(2), Alt(14)^2.2^2, Alt(14)^2.4, 
@@ -4688,82 +4708,82 @@ ng graph H(2,14)
 
 nonsep_count=504
 nonsynch_count=498
-runtime so far in milliseconds=844865
+runtime so far in milliseconds=852997
 
 n=197 is prime. All prime degree groups are separating.
 
 nonsep_count=504
 nonsynch_count=498
-runtime so far in milliseconds=844865
+runtime so far in milliseconds=852997
 
 n=198
 G=[ S(198), A(198), PGL(2,197), PSL(2,197) ]
 
 nonsep_count=504
 nonsynch_count=498
-runtime so far in milliseconds=844873
+runtime so far in milliseconds=853005
 
 n=199 is prime. All prime degree groups are separating.
 
 nonsep_count=504
 nonsynch_count=498
-runtime so far in milliseconds=844873
+runtime so far in milliseconds=853005
 
 n=200
 G=[ S(200), A(200), PGL(2,199), PSL(2,199) ]
 
 nonsep_count=504
 nonsynch_count=498
-runtime so far in milliseconds=844881
+runtime so far in milliseconds=853011
 
 n=201
 G=[ S(201), A(201) ]
 
 nonsep_count=504
 nonsynch_count=498
-runtime so far in milliseconds=844881
+runtime so far in milliseconds=853012
 
 n=202
 G=[ S(202), A(202) ]
 
 nonsep_count=504
 nonsynch_count=498
-runtime so far in milliseconds=844882
+runtime so far in milliseconds=853012
 
 n=203
 G=[ S(203), A(203), PSL(2, 29) ]
 
 nonsep_count=504
 nonsynch_count=498
-runtime so far in milliseconds=846528
+runtime so far in milliseconds=854686
 
 n=204
 G=[ S(204), A(204) ]
 
 nonsep_count=504
 nonsynch_count=498
-runtime so far in milliseconds=846529
+runtime so far in milliseconds=854687
 
 n=205
 G=[ S(205), A(205) ]
 
 nonsep_count=504
 nonsynch_count=498
-runtime so far in milliseconds=846529
+runtime so far in milliseconds=854687
 
 n=206
 G=[ S(206), A(206) ]
 
 nonsep_count=504
 nonsynch_count=498
-runtime so far in milliseconds=846529
+runtime so far in milliseconds=854687
 
 n=207
 G=[ S(207), A(207) ]
 
 nonsep_count=504
 nonsynch_count=498
-runtime so far in milliseconds=846530
+runtime so far in milliseconds=854687
 
 n=208
 G=[ S(208), A(208), PGammaU(3, 4), PSU(3, 4).2, PSU(3, 4) ]
@@ -4780,14 +4800,14 @@ n=208  libnr=1  PSU(3, 4) is a group of automorphisms of a graph isomorphic to\
 
 nonsep_count=507
 nonsynch_count=501
-runtime so far in milliseconds=846613
+runtime so far in milliseconds=854772
 
 n=209
 G=[ S(209), A(209) ]
 
 nonsep_count=507
 nonsynch_count=501
-runtime so far in milliseconds=846614
+runtime so far in milliseconds=854772
 
 n=210
 G=[ S(210), A(210), Sym(21), Alt(21), Sym(10), Alt(10) ]
@@ -4798,41 +4818,41 @@ n=210  libnr=1  Alt(10) is a nonseparating, but synchronizing, group
 
 nonsep_count=509
 nonsynch_count=501
-runtime so far in milliseconds=1335776
+runtime so far in milliseconds=1332727
 
 n=211 is prime. All prime degree groups are separating.
 
 nonsep_count=509
 nonsynch_count=501
-runtime so far in milliseconds=1335776
+runtime so far in milliseconds=1332727
 
 n=212
 G=[ S(212), A(212), PGL(2,211), PSL(2,211) ]
 
 nonsep_count=509
 nonsynch_count=501
-runtime so far in milliseconds=1335783
+runtime so far in milliseconds=1332734
 
 n=213
 G=[ S(213), A(213) ]
 
 nonsep_count=509
 nonsynch_count=501
-runtime so far in milliseconds=1335789
+runtime so far in milliseconds=1332734
 
 n=214
 G=[ S(214), A(214) ]
 
 nonsep_count=509
 nonsynch_count=501
-runtime so far in milliseconds=1335789
+runtime so far in milliseconds=1332734
 
 n=215
 G=[ S(215), A(215) ]
 
 nonsep_count=509
 nonsynch_count=501
-runtime so far in milliseconds=1335789
+runtime so far in milliseconds=1332734
 
 n=216
 G=[ S(216), A(216), Sym(6) wreath Sym(3), Sym(6) wreath 3, Alt(6)^3.Sym(4), 
@@ -4924,28 +4944,28 @@ graph H(3,6)
 
 nonsep_count=529
 nonsynch_count=521
-runtime so far in milliseconds=1336115
+runtime so far in milliseconds=1333154
 
 n=217
 G=[ S(217), A(217) ]
 
 nonsep_count=529
 nonsynch_count=521
-runtime so far in milliseconds=1336115
+runtime so far in milliseconds=1333154
 
 n=218
 G=[ S(218), A(218) ]
 
 nonsep_count=529
 nonsynch_count=521
-runtime so far in milliseconds=1336115
+runtime so far in milliseconds=1333155
 
 n=219
 G=[ S(219), A(219) ]
 
 nonsep_count=529
 nonsynch_count=521
-runtime so far in milliseconds=1336116
+runtime so far in milliseconds=1333155
 
 n=220
 G=[ S(220), A(220), Sym(12), Alt(12), M(12) ]
@@ -4964,34 +4984,34 @@ ph K(12,3)
 
 nonsep_count=532
 nonsynch_count=524
-runtime so far in milliseconds=1336255
+runtime so far in milliseconds=1333288
 
 n=221
 G=[ S(221), A(221) ]
 
 nonsep_count=532
 nonsynch_count=524
-runtime so far in milliseconds=1336255
+runtime so far in milliseconds=1333288
 
 n=222
 G=[ S(222), A(222) ]
 
 nonsep_count=532
 nonsynch_count=524
-runtime so far in milliseconds=1336255
+runtime so far in milliseconds=1333288
 
 n=223 is prime. All prime degree groups are separating.
 
 nonsep_count=532
 nonsynch_count=524
-runtime so far in milliseconds=1336255
+runtime so far in milliseconds=1333288
 
 n=224
 G=[ S(224), A(224), PGL(2,223), PSL(2,223) ]
 
 nonsep_count=532
 nonsynch_count=524
-runtime so far in milliseconds=1336263
+runtime so far in milliseconds=1333296
 
 n=225
 G=[ S(225), A(225), Sym(15) wreath Sym(2), Alt(15)^2.2^2, Alt(15)^2.4, 
@@ -5040,40 +5060,40 @@ raph H(2,15)
 
 nonsep_count=542
 nonsynch_count=534
-runtime so far in milliseconds=1336675
+runtime so far in milliseconds=1333705
 
 n=226
 G=[ S(226), A(226) ]
 
 nonsep_count=542
 nonsynch_count=534
-runtime so far in milliseconds=1336676
+runtime so far in milliseconds=1333705
 
 n=227 is prime. All prime degree groups are separating.
 
 nonsep_count=542
 nonsynch_count=534
-runtime so far in milliseconds=1336676
+runtime so far in milliseconds=1333705
 
 n=228
 G=[ S(228), A(228), PGL(2,227), PSL(2,227) ]
 
 nonsep_count=542
 nonsynch_count=534
-runtime so far in milliseconds=1336684
+runtime so far in milliseconds=1333712
 
 n=229 is prime. All prime degree groups are separating.
 
 nonsep_count=542
 nonsynch_count=534
-runtime so far in milliseconds=1336684
+runtime so far in milliseconds=1333712
 
 n=230
 G=[ S(230), A(230), PGL(2,229), PSL(2,229) ]
 
 nonsep_count=542
 nonsynch_count=534
-runtime so far in milliseconds=1336694
+runtime so far in milliseconds=1333727
 
 n=231
 G=[ S(231), A(231), Sym(22), Alt(22), M(22).2, M(22) ]
@@ -5096,20 +5116,20 @@ ph K(22,2)
 
 nonsep_count=546
 nonsynch_count=538
-runtime so far in milliseconds=1336827
+runtime so far in milliseconds=1333872
 
 n=232
 G=[ S(232), A(232) ]
 
 nonsep_count=546
 nonsynch_count=538
-runtime so far in milliseconds=1336827
+runtime so far in milliseconds=1333872
 
 n=233 is prime. All prime degree groups are separating.
 
 nonsep_count=546
 nonsynch_count=538
-runtime so far in milliseconds=1336827
+runtime so far in milliseconds=1333872
 
 n=234
 G=[ S(234), A(234), PGL(2,233), PSL(2,233), PSL(3, 3).2, PSL(3, 3) ]
@@ -5124,61 +5144,61 @@ n=234  libnr=1  PSL(3, 3) is a group of automorphisms of a graph isomorphic to\
 
 nonsep_count=548
 nonsynch_count=540
-runtime so far in milliseconds=1341790
+runtime so far in milliseconds=1338694
 
 n=235
 G=[ S(235), A(235) ]
 
 nonsep_count=548
 nonsynch_count=540
-runtime so far in milliseconds=1341793
+runtime so far in milliseconds=1338694
 
 n=236
 G=[ S(236), A(236) ]
 
 nonsep_count=548
 nonsynch_count=540
-runtime so far in milliseconds=1341794
+runtime so far in milliseconds=1338694
 
 n=237
 G=[ S(237), A(237) ]
 
 nonsep_count=548
 nonsynch_count=540
-runtime so far in milliseconds=1341794
+runtime so far in milliseconds=1338694
 
 n=238
 G=[ S(238), A(238) ]
 
 nonsep_count=548
 nonsynch_count=540
-runtime so far in milliseconds=1341794
+runtime so far in milliseconds=1338695
 
 n=239 is prime. All prime degree groups are separating.
 
 nonsep_count=548
 nonsynch_count=540
-runtime so far in milliseconds=1341794
+runtime so far in milliseconds=1338695
 
 n=240
 G=[ S(240), A(240), PGL(2,239), PSL(2,239) ]
 
 nonsep_count=548
 nonsynch_count=540
-runtime so far in milliseconds=1341802
+runtime so far in milliseconds=1338703
 
 n=241 is prime. All prime degree groups are separating.
 
 nonsep_count=548
 nonsynch_count=540
-runtime so far in milliseconds=1341802
+runtime so far in milliseconds=1338703
 
 n=242
 G=[ S(242), A(242), PGL(2,241), PSL(2,241) ]
 
 nonsep_count=548
 nonsynch_count=540
-runtime so far in milliseconds=1341810
+runtime so far in milliseconds=1338709
 
 n=243
 G=[ S(243), A(243), AGL(5, 3), ASL(5, 3), 3^5:GO(5, 3), 3^5:(2 x O(5, 3)), 
@@ -6030,7 +6050,7 @@ graph having comment: Hamming graph H(5,3)
 
 nonsep_count=566
 nonsynch_count=558
-runtime so far in milliseconds=1428002
+runtime so far in milliseconds=1426148
 
 n=244
 G=[ S(244), A(244), PGammaL(2, 3^5), PSigmaL(2, 3^5), PGL(2, 3^5), 
@@ -6038,28 +6058,28 @@ G=[ S(244), A(244), PGammaL(2, 3^5), PSigmaL(2, 3^5), PGL(2, 3^5),
 
 nonsep_count=566
 nonsynch_count=558
-runtime so far in milliseconds=1428008
+runtime so far in milliseconds=1426155
 
 n=245
 G=[ S(245), A(245) ]
 
 nonsep_count=566
 nonsynch_count=558
-runtime so far in milliseconds=1428008
+runtime so far in milliseconds=1426155
 
 n=246
 G=[ S(246), A(246) ]
 
 nonsep_count=566
 nonsynch_count=558
-runtime so far in milliseconds=1428008
+runtime so far in milliseconds=1426155
 
 n=247
 G=[ S(247), A(247) ]
 
 nonsep_count=566
 nonsynch_count=558
-runtime so far in milliseconds=1428009
+runtime so far in milliseconds=1426156
 
 n=248
 G=[ S(248), A(248), PSL(2, 31) ]
@@ -6070,34 +6090,34 @@ o a stored or found nonsynchronizing graph having comment: Group = PSL(2, 31);\
 
 nonsep_count=567
 nonsynch_count=559
-runtime so far in milliseconds=1428216
+runtime so far in milliseconds=1426367
 
 n=249
 G=[ S(249), A(249) ]
 
 nonsep_count=567
 nonsynch_count=559
-runtime so far in milliseconds=1428216
+runtime so far in milliseconds=1426367
 
 n=250
 G=[ S(250), A(250) ]
 
 nonsep_count=567
 nonsynch_count=559
-runtime so far in milliseconds=1428217
+runtime so far in milliseconds=1426368
 
 n=251 is prime. All prime degree groups are separating.
 
 nonsep_count=567
 nonsynch_count=559
-runtime so far in milliseconds=1428217
+runtime so far in milliseconds=1426368
 
 n=252
 G=[ S(252), A(252), PGL(2,251), PSL(2,251) ]
 
 nonsep_count=567
 nonsynch_count=559
-runtime so far in milliseconds=1428225
+runtime so far in milliseconds=1426376
 
 n=253
 G=[ S(253), A(253), Sym(23), Alt(23), M(23), M(23), PGL(2, 23), PSL(2, 23), 
@@ -6105,21 +6125,21 @@ G=[ S(253), A(253), Sym(23), Alt(23), M(23), M(23), PGL(2, 23), PSL(2, 23),
 
 nonsep_count=567
 nonsynch_count=559
-runtime so far in milliseconds=1968943
+runtime so far in milliseconds=1961467
 
 n=254
 G=[ S(254), A(254) ]
 
 nonsep_count=567
 nonsynch_count=559
-runtime so far in milliseconds=1968944
+runtime so far in milliseconds=1961468
 
 n=255
 G=[ S(255), A(255), PSL(8, 2), PSp(8, 2) ]
 
 nonsep_count=567
 nonsynch_count=559
-runtime so far in milliseconds=1969081
+runtime so far in milliseconds=1961584
 
 n=256
 G=[ S(256), A(256), Sym(16) wreath Sym(2), Alt(16)^2.2^2, Alt(16)^2.4, 
@@ -6893,115 +6913,115 @@ an-Scott type 1
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066042
+runtime so far in milliseconds=2057186
 
 n=257 is prime. All prime degree groups are separating.
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066042
+runtime so far in milliseconds=2057186
 
 n=258
 G=[ S(258), A(258), PGL(2,257), PSL(2,257) ]
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066048
+runtime so far in milliseconds=2057194
 
 n=259
 G=[ S(259), A(259) ]
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066049
+runtime so far in milliseconds=2057194
 
 n=260
 G=[ S(260), A(260) ]
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066049
+runtime so far in milliseconds=2057194
 
 n=261
 G=[ S(261), A(261) ]
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066049
+runtime so far in milliseconds=2057194
 
 n=262
 G=[ S(262), A(262) ]
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066050
+runtime so far in milliseconds=2057194
 
 n=263 is prime. All prime degree groups are separating.
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066050
+runtime so far in milliseconds=2057194
 
 n=264
 G=[ S(264), A(264), PGL(2,263), PSL(2,263) ]
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066057
+runtime so far in milliseconds=2057201
 
 n=265
 G=[ S(265), A(265) ]
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066057
+runtime so far in milliseconds=2057202
 
 n=266
 G=[ S(266), A(266), J_1 ]
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066324
+runtime so far in milliseconds=2057465
 
 n=267
 G=[ S(267), A(267) ]
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066325
+runtime so far in milliseconds=2057466
 
 n=268
 G=[ S(268), A(268) ]
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066325
+runtime so far in milliseconds=2057466
 
 n=269 is prime. All prime degree groups are separating.
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066325
+runtime so far in milliseconds=2057466
 
 n=270
 G=[ S(270), A(270), PGL(2,269), PSL(2,269) ]
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066333
+runtime so far in milliseconds=2057478
 
 n=271 is prime. All prime degree groups are separating.
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066333
+runtime so far in milliseconds=2057478
 
 n=272
 G=[ S(272), A(272), PGL(2,271), PSL(2,271) ]
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066341
+runtime so far in milliseconds=2057485
 
 n=273
 G=[ S(273), A(273), PGammaL(3, 16), PSL(3, 16).6, PSL(3, 16).4, PSL(3, 16).3, 
@@ -7009,21 +7029,21 @@ G=[ S(273), A(273), PGammaL(3, 16), PSL(3, 16).6, PSL(3, 16).4, PSL(3, 16).3,
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066354
+runtime so far in milliseconds=2057498
 
 n=274
 G=[ S(274), A(274) ]
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066355
+runtime so far in milliseconds=2057498
 
 n=275
 G=[ S(275), A(275), McL:2, McL ]
 
 nonsep_count=751
 nonsynch_count=743
-runtime so far in milliseconds=2066534
+runtime so far in milliseconds=2057674
 
 n=276
 G=[ S(276), A(276), Sym(24), Alt(24), Co_3, M(24), PGL(2, 23), PSL(2, 23) ]
@@ -7050,27 +7070,27 @@ r graph K(24,2)
 
 nonsep_count=756
 nonsynch_count=748
-runtime so far in milliseconds=2087064
+runtime so far in milliseconds=2077446
 
 n=277 is prime. All prime degree groups are separating.
 
 nonsep_count=756
 nonsynch_count=748
-runtime so far in milliseconds=2087064
+runtime so far in milliseconds=2077446
 
 n=278
 G=[ S(278), A(278), PGL(2,277), PSL(2,277) ]
 
 nonsep_count=756
 nonsynch_count=748
-runtime so far in milliseconds=2087072
+runtime so far in milliseconds=2077454
 
 n=279
 G=[ S(279), A(279) ]
 
 nonsep_count=756
 nonsynch_count=748
-runtime so far in milliseconds=2087073
+runtime so far in milliseconds=2077455
 
 n=280
 G=[ S(280), A(280), PSU(4, 3).D_8, PSU(4, 3).2^2, PSU(4, 3).4, PSU(4, 3).2^2, 
@@ -7161,33 +7181,33 @@ ermitianPolarSpace(3,9), which has a fan
 
 nonsep_count=778
 nonsynch_count=765
-runtime so far in milliseconds=54116726
+runtime so far in milliseconds=51477042
 
 n=281 is prime. All prime degree groups are separating.
 
 nonsep_count=778
 nonsynch_count=765
-runtime so far in milliseconds=54116726
+runtime so far in milliseconds=51477042
 
 n=282
 G=[ S(282), A(282), PGL(2,281), PSL(2,281) ]
 
 nonsep_count=778
 nonsynch_count=765
-runtime so far in milliseconds=54116734
+runtime so far in milliseconds=51477050
 
 n=283 is prime. All prime degree groups are separating.
 
 nonsep_count=778
 nonsynch_count=765
-runtime so far in milliseconds=54116734
+runtime so far in milliseconds=51477050
 
 n=284
 G=[ S(284), A(284), PGL(2,283), PSL(2,283) ]
 
 nonsep_count=778
 nonsynch_count=765
-runtime so far in milliseconds=54116742
+runtime so far in milliseconds=51477058
 
 n=285
 G=[ S(285), A(285), PGL(2, 19) ]
@@ -7197,7 +7217,7 @@ n=285  libnr=1  PGL(2, 19) is nonsynchronizing;  nonsynchronizing graph has (v\
 
 nonsep_count=779
 nonsynch_count=766
-runtime so far in milliseconds=54175716
+runtime so far in milliseconds=51534233
 
 n=286
 G=[ S(286), A(286), Sym(13), Alt(13) ]
@@ -7210,21 +7230,21 @@ n=286  libnr=1  Alt(13) is a group of automorphisms of a graph isomorphic to a\
 
 nonsep_count=781
 nonsynch_count=768
-runtime so far in milliseconds=54175787
+runtime so far in milliseconds=51534285
 
 n=287
 G=[ S(287), A(287) ]
 
 nonsep_count=781
 nonsynch_count=768
-runtime so far in milliseconds=54175787
+runtime so far in milliseconds=51534285
 
 n=288
 G=[ S(288), A(288) ]
 
 nonsep_count=781
 nonsynch_count=768
-runtime so far in milliseconds=54175787
+runtime so far in milliseconds=51534285
 
 n=289
 G=[ S(289), A(289), Sym(17) wreath Sym(2), Alt(17)^2.2^2, Alt(17)^2.4, 
@@ -7598,7 +7618,7 @@ rsection with some hyperplane (in the minimal normal subgroup)
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=54182637
+runtime so far in milliseconds=51540794
 
 n=290
 G=[ S(290), A(290), PGammaL(2, 17^2), PGL(2, 17^2), PSigmaL(2, 17^2), 
@@ -7606,69 +7626,69 @@ G=[ S(290), A(290), PGammaL(2, 17^2), PGL(2, 17^2), PSigmaL(2, 17^2),
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=54182647
+runtime so far in milliseconds=51540803
 
 n=291
 G=[ S(291), A(291) ]
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=54182648
+runtime so far in milliseconds=51540804
 
 n=292
 G=[ S(292), A(292) ]
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=54182648
+runtime so far in milliseconds=51540804
 
 n=293 is prime. All prime degree groups are separating.
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=54182648
+runtime so far in milliseconds=51540804
 
 n=294
 G=[ S(294), A(294), PGL(2,293), PSL(2,293) ]
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=54182655
+runtime so far in milliseconds=51540813
 
 n=295
 G=[ S(295), A(295) ]
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=54182656
+runtime so far in milliseconds=51540813
 
 n=296
 G=[ S(296), A(296) ]
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=54182656
+runtime so far in milliseconds=51540813
 
 n=297
 G=[ S(297), A(297), PGammaU(5, 2), PSU(5, 2) ]
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=57700458
+runtime so far in milliseconds=54879353
 
 n=298
 G=[ S(298), A(298) ]
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=57700459
+runtime so far in milliseconds=54879353
 
 n=299
 G=[ S(299), A(299) ]
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=57700459
+runtime so far in milliseconds=54879354
 
 n=300
 G=[ S(300), A(300), Sym(25), Alt(25), PSp(4, 5).2, PSp(4, 5), PSL(2, 5^2).2^2,
@@ -7676,102 +7696,102 @@ G=[ S(300), A(300), Sym(25), Alt(25), PSp(4, 5).2, PSp(4, 5), PSL(2, 5^2).2^2,
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=59376965
+runtime so far in milliseconds=56503067
 
 n=301
 G=[ S(301), A(301) ]
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=59376965
+runtime so far in milliseconds=56503068
 
 n=302
 G=[ S(302), A(302) ]
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=59376966
+runtime so far in milliseconds=56503068
 
 n=303
 G=[ S(303), A(303) ]
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=59376966
+runtime so far in milliseconds=56503068
 
 n=304
 G=[ S(304), A(304) ]
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=59376966
+runtime so far in milliseconds=56503068
 
 n=305
 G=[ S(305), A(305) ]
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=59376967
+runtime so far in milliseconds=56503069
 
 n=306
 G=[ S(306), A(306) ]
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=59376967
+runtime so far in milliseconds=56503069
 
 n=307 is prime. All prime degree groups are separating.
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=59376967
+runtime so far in milliseconds=56503069
 
 n=308
 G=[ S(308), A(308), PGL(2,307), PSL(2,307) ]
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=59376976
+runtime so far in milliseconds=56503081
 
 n=309
 G=[ S(309), A(309) ]
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=59376976
+runtime so far in milliseconds=56503081
 
 n=310
 G=[ S(310), A(310) ]
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=59376976
+runtime so far in milliseconds=56503081
 
 n=311 is prime. All prime degree groups are separating.
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=59376976
+runtime so far in milliseconds=56503081
 
 n=312
 G=[ S(312), A(312), PGL(2,311), PSL(2,311) ]
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=59376984
+runtime so far in milliseconds=56503090
 
 n=313 is prime. All prime degree groups are separating.
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=59376984
+runtime so far in milliseconds=56503090
 
 n=314
 G=[ S(314), A(314), PGL(2,313), PSL(2,313) ]
 
 nonsep_count=868
 nonsynch_count=855
-runtime so far in milliseconds=59376993
+runtime so far in milliseconds=56503098
 
 n=315
 G=[ S(315), A(315), PSp(6, 2), J_2.2, J_2 ]
@@ -7786,62 +7806,62 @@ n=315  libnr=2  J_2 is a nonseparating, but synchronizing, group
 
 nonsep_count=871
 nonsynch_count=856
-runtime so far in milliseconds=59378564
+runtime so far in milliseconds=56504640
 
 n=316
 G=[ S(316), A(316) ]
 
 nonsep_count=871
 nonsynch_count=856
-runtime so far in milliseconds=59378565
+runtime so far in milliseconds=56504640
 
 n=317 is prime. All prime degree groups are separating.
 
 nonsep_count=871
 nonsynch_count=856
-runtime so far in milliseconds=59378565
+runtime so far in milliseconds=56504640
 
 n=318
 G=[ S(318), A(318), PGL(2,317), PSL(2,317) ]
 
 nonsep_count=871
 nonsynch_count=856
-runtime so far in milliseconds=59378574
+runtime so far in milliseconds=56504649
 
 n=319
 G=[ S(319), A(319) ]
 
 nonsep_count=871
 nonsynch_count=856
-runtime so far in milliseconds=59378574
+runtime so far in milliseconds=56504649
 
 n=320
 G=[ S(320), A(320) ]
 
 nonsep_count=871
 nonsynch_count=856
-runtime so far in milliseconds=59378574
+runtime so far in milliseconds=56504650
 
 n=321
 G=[ S(321), A(321) ]
 
 nonsep_count=871
 nonsynch_count=856
-runtime so far in milliseconds=59378575
+runtime so far in milliseconds=56504650
 
 n=322
 G=[ S(322), A(322) ]
 
 nonsep_count=871
 nonsynch_count=856
-runtime so far in milliseconds=59378575
+runtime so far in milliseconds=56504650
 
 n=323
 G=[ S(323), A(323) ]
 
 nonsep_count=871
 nonsynch_count=856
-runtime so far in milliseconds=59378575
+runtime so far in milliseconds=56504651
 
 n=324
 G=[ S(324), A(324), Sym(18) wreath Sym(2), Alt(18)^2.2^2, Alt(18)^2.4, 
@@ -7882,7 +7902,7 @@ ng graph H(2,18)
 
 nonsep_count=879
 nonsynch_count=864
-runtime so far in milliseconds=59379136
+runtime so far in milliseconds=56505238
 
 n=325
 G=[ S(325), A(325), Sym(26), Alt(26), PSU(4, 4).4, PSU(4, 4).2, PSU(4, 4), 
@@ -7923,76 +7943,76 @@ er graph K(26,2)
 
 nonsep_count=888
 nonsynch_count=871
-runtime so far in milliseconds=59477678
+runtime so far in milliseconds=56598615
 
 n=326
 G=[ S(326), A(326) ]
 
 nonsep_count=888
 nonsynch_count=871
-runtime so far in milliseconds=59477679
+runtime so far in milliseconds=56598615
 
 n=327
 G=[ S(327), A(327) ]
 
 nonsep_count=888
 nonsynch_count=871
-runtime so far in milliseconds=59477679
+runtime so far in milliseconds=56598615
 
 n=328
 G=[ S(328), A(328) ]
 
 nonsep_count=888
 nonsynch_count=871
-runtime so far in milliseconds=59477679
+runtime so far in milliseconds=56598616
 
 n=329
 G=[ S(329), A(329) ]
 
 nonsep_count=888
 nonsynch_count=871
-runtime so far in milliseconds=59477680
+runtime so far in milliseconds=56598616
 
 n=330
 G=[ S(330), A(330), Sym(11), Alt(11), M(22).2, M(22) ]
 
 nonsep_count=888
 nonsynch_count=871
-runtime so far in milliseconds=59479461
+runtime so far in milliseconds=56600592
 
 n=331 is prime. All prime degree groups are separating.
 
 nonsep_count=888
 nonsynch_count=871
-runtime so far in milliseconds=59479461
+runtime so far in milliseconds=56600592
 
 n=332
 G=[ S(332), A(332), PGL(2,331), PSL(2,331) ]
 
 nonsep_count=888
 nonsynch_count=871
-runtime so far in milliseconds=59479471
+runtime so far in milliseconds=56600606
 
 n=333
 G=[ S(333), A(333) ]
 
 nonsep_count=888
 nonsynch_count=871
-runtime so far in milliseconds=59479471
+runtime so far in milliseconds=56600606
 
 n=334
 G=[ S(334), A(334) ]
 
 nonsep_count=888
 nonsynch_count=871
-runtime so far in milliseconds=59479471
+runtime so far in milliseconds=56600607
 
 n=335
 G=[ S(335), A(335) ]
 
 nonsep_count=888
 nonsynch_count=871
-runtime so far in milliseconds=59479472
+runtime so far in milliseconds=56600607
 
 n=336
 G=[ S(336), A(336), PSp(6, 2), PSL(3, 4).D_12, PSL(3, 4).Sym(3), PSL(3, 4).6, 
@@ -8031,48 +8051,48 @@ L(3, 4).D_12 is nonsynchronizing;  nonsynchronizing graph has (v,k,omega) = (3\
 
 nonsep_count=895
 nonsynch_count=878
-runtime so far in milliseconds=59483737
+runtime so far in milliseconds=56604466
 
 n=337 is prime. All prime degree groups are separating.
 
 nonsep_count=895
 nonsynch_count=878
-runtime so far in milliseconds=59483737
+runtime so far in milliseconds=56604466
 
 n=338
 G=[ S(338), A(338), PGL(2,337), PSL(2,337) ]
 
 nonsep_count=895
 nonsynch_count=878
-runtime so far in milliseconds=59483747
+runtime so far in milliseconds=56604482
 
 n=339
 G=[ S(339), A(339) ]
 
 nonsep_count=895
 nonsynch_count=878
-runtime so far in milliseconds=59483747
+runtime so far in milliseconds=56604482
 
 n=340
 G=[ S(340), A(340) ]
 
 nonsep_count=895
 nonsynch_count=878
-runtime so far in milliseconds=59483748
+runtime so far in milliseconds=56604482
 
 n=341
 G=[ S(341), A(341), PGammaL(5, 2^2), PSL(5, 2^2) ]
 
 nonsep_count=895
 nonsynch_count=878
-runtime so far in milliseconds=59483757
+runtime so far in milliseconds=56604491
 
 n=342
 G=[ S(342), A(342) ]
 
 nonsep_count=895
 nonsynch_count=878
-runtime so far in milliseconds=59483757
+runtime so far in milliseconds=56604491
 
 n=343
 G=[ S(343), A(343), Sym(7) wreath Sym(3), Sym(7) wreath Alt(3), 
@@ -8380,7 +8400,7 @@ section with some hyperplane (in the minimal normal subgroup)
 
 nonsep_count=963
 nonsynch_count=946
-runtime so far in milliseconds=59538247
+runtime so far in milliseconds=56657295
 
 n=344
 G=[ S(344), A(344), PGammaL(2, 7^3), PSigmaL(2, 7^3), PGL(2, 7^3), 
@@ -8388,47 +8408,47 @@ G=[ S(344), A(344), PGammaL(2, 7^3), PSigmaL(2, 7^3), PGL(2, 7^3),
 
 nonsep_count=963
 nonsynch_count=946
-runtime so far in milliseconds=59538260
+runtime so far in milliseconds=56657306
 
 n=345
 G=[ S(345), A(345) ]
 
 nonsep_count=963
 nonsynch_count=946
-runtime so far in milliseconds=59538260
+runtime so far in milliseconds=56657307
 
 n=346
 G=[ S(346), A(346) ]
 
 nonsep_count=963
 nonsynch_count=946
-runtime so far in milliseconds=59538260
+runtime so far in milliseconds=56657307
 
 n=347 is prime. All prime degree groups are separating.
 
 nonsep_count=963
 nonsynch_count=946
-runtime so far in milliseconds=59538260
+runtime so far in milliseconds=56657307
 
 n=348
 G=[ S(348), A(348), PGL(2,347), PSL(2,347) ]
 
 nonsep_count=963
 nonsynch_count=946
-runtime so far in milliseconds=59538269
+runtime so far in milliseconds=56657317
 
 n=349 is prime. All prime degree groups are separating.
 
 nonsep_count=963
 nonsynch_count=946
-runtime so far in milliseconds=59538269
+runtime so far in milliseconds=56657317
 
 n=350
 G=[ S(350), A(350), PGL(2,349), PSL(2,349) ]
 
 nonsep_count=963
 nonsynch_count=946
-runtime so far in milliseconds=59538279
+runtime so far in milliseconds=56657326
 
 n=351
 G=[ S(351), A(351), Sym(27), Alt(27), PSO(7, 3), O(7, 3), G(2, 3), 
@@ -8436,41 +8456,41 @@ G=[ S(351), A(351), Sym(27), Alt(27), PSO(7, 3), O(7, 3), G(2, 3),
 
 nonsep_count=963
 nonsynch_count=946
-runtime so far in milliseconds=62705854
+runtime so far in milliseconds=59727989
 
 n=352
 G=[ S(352), A(352) ]
 
 nonsep_count=963
 nonsynch_count=946
-runtime so far in milliseconds=62705855
+runtime so far in milliseconds=59727989
 
 n=353 is prime. All prime degree groups are separating.
 
 nonsep_count=963
 nonsynch_count=946
-runtime so far in milliseconds=62705855
+runtime so far in milliseconds=59727989
 
 n=354
 G=[ S(354), A(354), PGL(2,353), PSL(2,353) ]
 
 nonsep_count=963
 nonsynch_count=946
-runtime so far in milliseconds=62705864
+runtime so far in milliseconds=59727999
 
 n=355
 G=[ S(355), A(355) ]
 
 nonsep_count=963
 nonsynch_count=946
-runtime so far in milliseconds=62705865
+runtime so far in milliseconds=59727999
 
 n=356
 G=[ S(356), A(356) ]
 
 nonsep_count=963
 nonsynch_count=946
-runtime so far in milliseconds=62705865
+runtime so far in milliseconds=59727999
 
 n=357
 G=[ S(357), A(357), PSL(4, 2^2).2^2, PSL(4, 2^2).2, PSL(4, 2^2).2, 
@@ -8498,20 +8518,20 @@ PG(3,4)
 
 nonsep_count=968
 nonsynch_count=951
-runtime so far in milliseconds=62706082
+runtime so far in milliseconds=59728215
 
 n=358
 G=[ S(358), A(358) ]
 
 nonsep_count=968
 nonsynch_count=951
-runtime so far in milliseconds=62706083
+runtime so far in milliseconds=59728216
 
 n=359 is prime. All prime degree groups are separating.
 
 nonsep_count=968
 nonsynch_count=951
-runtime so far in milliseconds=62706083
+runtime so far in milliseconds=59728216
 
 n=360
 G=[ S(360), A(360), PGL(2,359), PSL(2,359), Alt(6)^2.2^3, Alt(6)^2.2^2, 
@@ -8569,7 +8589,7 @@ an-Scott type 3a
 
 nonsep_count=984
 nonsynch_count=967
-runtime so far in milliseconds=62707584
+runtime so far in milliseconds=59729663
 
 n=361
 G=[ S(361), A(361), Sym(19) wreath Sym(2), Alt(19)^2.2^2, Alt(19)^2.4, 
@@ -14201,7 +14221,7 @@ th some hyperplane (in the minimal normal subgroup)
 
 nonsep_count=1056
 nonsynch_count=1039
-runtime so far in milliseconds=62715564
+runtime so far in milliseconds=59737752
 
 n=362
 G=[ S(362), A(362), PGammaL(2, 19^2), PGL(2, 19^2), PSigmaL(2, 19^2), 
@@ -14209,14 +14229,14 @@ G=[ S(362), A(362), PGammaL(2, 19^2), PGL(2, 19^2), PSigmaL(2, 19^2),
 
 nonsep_count=1056
 nonsynch_count=1039
-runtime so far in milliseconds=62715576
+runtime so far in milliseconds=59737764
 
 n=363
 G=[ S(363), A(363) ]
 
 nonsep_count=1056
 nonsynch_count=1039
-runtime so far in milliseconds=62715577
+runtime so far in milliseconds=59737764
 
 n=364
 G=[ S(364), A(364), PGL(6, 3), PSL(6, 3), Sym(14), Alt(14), PSp(6, 3):2, 
@@ -14237,96 +14257,96 @@ n=364  libnr=5  G(2, 3) is a group of automorphisms of a graph isomorphic to a\
 
 nonsep_count=1059
 nonsynch_count=1042
-runtime so far in milliseconds=62718793
+runtime so far in milliseconds=59740812
 
 n=365
 G=[ S(365), A(365) ]
 
 nonsep_count=1059
 nonsynch_count=1042
-runtime so far in milliseconds=62718793
+runtime so far in milliseconds=59740813
 
 n=366
 G=[ S(366), A(366) ]
 
 nonsep_count=1059
 nonsynch_count=1042
-runtime so far in milliseconds=62718793
+runtime so far in milliseconds=59740813
 
 n=367 is prime. All prime degree groups are separating.
 
 nonsep_count=1059
 nonsynch_count=1042
-runtime so far in milliseconds=62718793
+runtime so far in milliseconds=59740813
 
 n=368
 G=[ S(368), A(368), PGL(2,367), PSL(2,367) ]
 
 nonsep_count=1059
 nonsynch_count=1042
-runtime so far in milliseconds=62718804
+runtime so far in milliseconds=59740823
 
 n=369
 G=[ S(369), A(369), PSigmaL(2, 81), PSL(2, 81).2, PSL(2, 81) ]
 
 nonsep_count=1059
 nonsynch_count=1042
-runtime so far in milliseconds=62723722
+runtime so far in milliseconds=59745493
 
 n=370
 G=[ S(370), A(370) ]
 
 nonsep_count=1059
 nonsynch_count=1042
-runtime so far in milliseconds=62723722
+runtime so far in milliseconds=59745493
 
 n=371
 G=[ S(371), A(371) ]
 
 nonsep_count=1059
 nonsynch_count=1042
-runtime so far in milliseconds=62723723
+runtime so far in milliseconds=59745493
 
 n=372
 G=[ S(372), A(372) ]
 
 nonsep_count=1059
 nonsynch_count=1042
-runtime so far in milliseconds=62723723
+runtime so far in milliseconds=59745494
 
 n=373 is prime. All prime degree groups are separating.
 
 nonsep_count=1059
 nonsynch_count=1042
-runtime so far in milliseconds=62723723
+runtime so far in milliseconds=59745494
 
 n=374
 G=[ S(374), A(374), PGL(2,373), PSL(2,373) ]
 
 nonsep_count=1059
 nonsynch_count=1042
-runtime so far in milliseconds=62723733
+runtime so far in milliseconds=59745503
 
 n=375
 G=[ S(375), A(375) ]
 
 nonsep_count=1059
 nonsynch_count=1042
-runtime so far in milliseconds=62723734
+runtime so far in milliseconds=59745504
 
 n=376
 G=[ S(376), A(376) ]
 
 nonsep_count=1059
 nonsynch_count=1042
-runtime so far in milliseconds=62723735
+runtime so far in milliseconds=59745504
 
 n=377
 G=[ S(377), A(377) ]
 
 nonsep_count=1059
 nonsynch_count=1042
-runtime so far in milliseconds=62723735
+runtime so far in milliseconds=59745504
 
 n=378
 G=[ S(378), A(378), Sym(28), Alt(28), PSO(7, 3), O(7, 3), G(2, 3), 
@@ -14358,123 +14378,123 @@ er graph K(28,2)
 
 nonsep_count=1065
 nonsynch_count=1048
-runtime so far in milliseconds=62835887
+runtime so far in milliseconds=59851000
 
 n=379 is prime. All prime degree groups are separating.
 
 nonsep_count=1065
 nonsynch_count=1048
-runtime so far in milliseconds=62835887
+runtime so far in milliseconds=59851000
 
 n=380
 G=[ S(380), A(380), PGL(2,379), PSL(2,379) ]
 
 nonsep_count=1065
 nonsynch_count=1048
-runtime so far in milliseconds=62835898
+runtime so far in milliseconds=59851010
 
 n=381
 G=[ S(381), A(381), PGammaL(3, 19), PSL(3, 19) ]
 
 nonsep_count=1065
 nonsynch_count=1048
-runtime so far in milliseconds=62835903
+runtime so far in milliseconds=59851016
 
 n=382
 G=[ S(382), A(382) ]
 
 nonsep_count=1065
 nonsynch_count=1048
-runtime so far in milliseconds=62835903
+runtime so far in milliseconds=59851016
 
 n=383 is prime. All prime degree groups are separating.
 
 nonsep_count=1065
 nonsynch_count=1048
-runtime so far in milliseconds=62835903
+runtime so far in milliseconds=59851016
 
 n=384
 G=[ S(384), A(384), PGL(2,383), PSL(2,383) ]
 
 nonsep_count=1065
 nonsynch_count=1048
-runtime so far in milliseconds=62835913
+runtime so far in milliseconds=59851026
 
 n=385
 G=[ S(385), A(385) ]
 
 nonsep_count=1065
 nonsynch_count=1048
-runtime so far in milliseconds=62835914
+runtime so far in milliseconds=59851026
 
 n=386
 G=[ S(386), A(386) ]
 
 nonsep_count=1065
 nonsynch_count=1048
-runtime so far in milliseconds=62835914
+runtime so far in milliseconds=59851026
 
 n=387
 G=[ S(387), A(387) ]
 
 nonsep_count=1065
 nonsynch_count=1048
-runtime so far in milliseconds=62835914
+runtime so far in milliseconds=59851026
 
 n=388
 G=[ S(388), A(388) ]
 
 nonsep_count=1065
 nonsynch_count=1048
-runtime so far in milliseconds=62835915
+runtime so far in milliseconds=59851026
 
 n=389 is prime. All prime degree groups are separating.
 
 nonsep_count=1065
 nonsynch_count=1048
-runtime so far in milliseconds=62835915
+runtime so far in milliseconds=59851026
 
 n=390
 G=[ S(390), A(390), PGL(2,389), PSL(2,389) ]
 
 nonsep_count=1065
 nonsynch_count=1048
-runtime so far in milliseconds=62835925
+runtime so far in milliseconds=59851036
 
 n=391
 G=[ S(391), A(391) ]
 
 nonsep_count=1065
 nonsynch_count=1048
-runtime so far in milliseconds=62835925
+runtime so far in milliseconds=59851037
 
 n=392
 G=[ S(392), A(392) ]
 
 nonsep_count=1065
 nonsynch_count=1048
-runtime so far in milliseconds=62835925
+runtime so far in milliseconds=59851037
 
 n=393
 G=[ S(393), A(393) ]
 
 nonsep_count=1065
 nonsynch_count=1048
-runtime so far in milliseconds=62835926
+runtime so far in milliseconds=59851037
 
 n=394
 G=[ S(394), A(394) ]
 
 nonsep_count=1065
 nonsynch_count=1048
-runtime so far in milliseconds=62835926
+runtime so far in milliseconds=59851038
 
 n=395
 G=[ S(395), A(395) ]
 
 nonsep_count=1065
 nonsynch_count=1048
-runtime so far in milliseconds=62835926
+runtime so far in milliseconds=59851038
 
 n=396
 G=[ S(396), A(396), M(12).2, M(12) ]
@@ -14488,27 +14508,27 @@ is nonsynchronizing;  nonsynchronizing graph has (v,k,omega) = (396,200,36).
 
 nonsep_count=1067
 nonsynch_count=1050
-runtime so far in milliseconds=62837232
+runtime so far in milliseconds=59852264
 
 n=397 is prime. All prime degree groups are separating.
 
 nonsep_count=1067
 nonsynch_count=1050
-runtime so far in milliseconds=62837232
+runtime so far in milliseconds=59852264
 
 n=398
 G=[ S(398), A(398), PGL(2,397), PSL(2,397) ]
 
 nonsep_count=1067
 nonsynch_count=1050
-runtime so far in milliseconds=62837243
+runtime so far in milliseconds=59852275
 
 n=399
 G=[ S(399), A(399) ]
 
 nonsep_count=1067
 nonsynch_count=1050
-runtime so far in milliseconds=62837243
+runtime so far in milliseconds=59852276
 
 n=400
 G=[ S(400), A(400), Sym(20) wreath Sym(2), Alt(20)^2.2^2, Alt(20)^2.4, 
@@ -14554,110 +14574,110 @@ ing graph H(2,20)
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=66774548
+runtime so far in milliseconds=63589204
 
 n=401 is prime. All prime degree groups are separating.
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=66774549
+runtime so far in milliseconds=63589204
 
 n=402
 G=[ S(402), A(402), PGL(2,401), PSL(2,401) ]
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=66774559
+runtime so far in milliseconds=63589219
 
 n=403
 G=[ S(403), A(403) ]
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=66774560
+runtime so far in milliseconds=63589219
 
 n=404
 G=[ S(404), A(404) ]
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=66774560
+runtime so far in milliseconds=63589219
 
 n=405
 G=[ S(405), A(405) ]
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=66774560
+runtime so far in milliseconds=63589219
 
 n=406
 G=[ S(406), A(406), Sym(29), Alt(29), PGL(2, 29), PSL(2, 29) ]
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=78400945
+runtime so far in milliseconds=74628352
 
 n=407
 G=[ S(407), A(407) ]
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=78400946
+runtime so far in milliseconds=74628353
 
 n=408
 G=[ S(408), A(408) ]
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=78400946
+runtime so far in milliseconds=74628353
 
 n=409 is prime. All prime degree groups are separating.
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=78400946
+runtime so far in milliseconds=74628354
 
 n=410
 G=[ S(410), A(410), PGL(2,409), PSL(2,409) ]
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=78400957
+runtime so far in milliseconds=74628366
 
 n=411
 G=[ S(411), A(411) ]
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=78400958
+runtime so far in milliseconds=74628367
 
 n=412
 G=[ S(412), A(412) ]
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=78400958
+runtime so far in milliseconds=74628367
 
 n=413
 G=[ S(413), A(413) ]
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=78400958
+runtime so far in milliseconds=74628368
 
 n=414
 G=[ S(414), A(414) ]
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=78400959
+runtime so far in milliseconds=74628368
 
 n=415
 G=[ S(415), A(415) ]
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=78400959
+runtime so far in milliseconds=74628368
 
 n=416
 G=[ S(416), A(416), G(2, 4).2, G(2, 4), PGammaU(3, 4), PSU(3, 4).2, PSU(3, 4) 
@@ -14665,61 +14685,61 @@ G=[ S(416), A(416), G(2, 4).2, G(2, 4), PGammaU(3, 4), PSU(3, 4).2, PSU(3, 4)
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=78406071
+runtime so far in milliseconds=74632972
 
 n=417
 G=[ S(417), A(417) ]
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=78406072
+runtime so far in milliseconds=74632973
 
 n=418
 G=[ S(418), A(418) ]
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=78406072
+runtime so far in milliseconds=74632973
 
 n=419 is prime. All prime degree groups are separating.
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=78406072
+runtime so far in milliseconds=74632973
 
 n=420
 G=[ S(420), A(420), PGL(2,419), PSL(2,419) ]
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=78406083
+runtime so far in milliseconds=74632983
 
 n=421 is prime. All prime degree groups are separating.
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=78406083
+runtime so far in milliseconds=74632983
 
 n=422
 G=[ S(422), A(422), PGL(2,421), PSL(2,421) ]
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=78406094
+runtime so far in milliseconds=74632993
 
 n=423
 G=[ S(423), A(423) ]
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=78406094
+runtime so far in milliseconds=74632993
 
 n=424
 G=[ S(424), A(424) ]
 
 nonsep_count=1077
 nonsynch_count=1058
-runtime so far in milliseconds=78406095
+runtime so far in milliseconds=74632994
 
 n=425
 G=[ S(425), A(425), PSp(4, 4).4 ]
@@ -14729,68 +14749,68 @@ v,k,omega) = (425,256,25).
 
 nonsep_count=1078
 nonsynch_count=1059
-runtime so far in milliseconds=78406636
+runtime so far in milliseconds=74633523
 
 n=426
 G=[ S(426), A(426) ]
 
 nonsep_count=1078
 nonsynch_count=1059
-runtime so far in milliseconds=78406636
+runtime so far in milliseconds=74633523
 
 n=427
 G=[ S(427), A(427) ]
 
 nonsep_count=1078
 nonsynch_count=1059
-runtime so far in milliseconds=78406637
+runtime so far in milliseconds=74633524
 
 n=428
 G=[ S(428), A(428) ]
 
 nonsep_count=1078
 nonsynch_count=1059
-runtime so far in milliseconds=78406637
+runtime so far in milliseconds=74633524
 
 n=429
 G=[ S(429), A(429) ]
 
 nonsep_count=1078
 nonsynch_count=1059
-runtime so far in milliseconds=78406637
+runtime so far in milliseconds=74633524
 
 n=430
 G=[ S(430), A(430) ]
 
 nonsep_count=1078
 nonsynch_count=1059
-runtime so far in milliseconds=78406638
+runtime so far in milliseconds=74633525
 
 n=431 is prime. All prime degree groups are separating.
 
 nonsep_count=1078
 nonsynch_count=1059
-runtime so far in milliseconds=78406638
+runtime so far in milliseconds=74633525
 
 n=432
 G=[ S(432), A(432), PGL(2,431), PSL(2,431) ]
 
 nonsep_count=1078
 nonsynch_count=1059
-runtime so far in milliseconds=78406649
+runtime so far in milliseconds=74633535
 
 n=433 is prime. All prime degree groups are separating.
 
 nonsep_count=1078
 nonsynch_count=1059
-runtime so far in milliseconds=78406649
+runtime so far in milliseconds=74633535
 
 n=434
 G=[ S(434), A(434), PGL(2,433), PSL(2,433) ]
 
 nonsep_count=1078
 nonsynch_count=1059
-runtime so far in milliseconds=78406661
+runtime so far in milliseconds=74633545
 
 n=435
 G=[ S(435), A(435), Sym(30), Alt(30), PGL(2, 29), PSL(2, 29) ]
@@ -14813,41 +14833,41 @@ r graph K(30,2)
 
 nonsep_count=1082
 nonsynch_count=1063
-runtime so far in milliseconds=78859412
+runtime so far in milliseconds=75036571
 
 n=436
 G=[ S(436), A(436) ]
 
 nonsep_count=1082
 nonsynch_count=1063
-runtime so far in milliseconds=78859412
+runtime so far in milliseconds=75036571
 
 n=437
 G=[ S(437), A(437) ]
 
 nonsep_count=1082
 nonsynch_count=1063
-runtime so far in milliseconds=78859412
+runtime so far in milliseconds=75036571
 
 n=438
 G=[ S(438), A(438) ]
 
 nonsep_count=1082
 nonsynch_count=1063
-runtime so far in milliseconds=78859412
+runtime so far in milliseconds=75036572
 
 n=439 is prime. All prime degree groups are separating.
 
 nonsep_count=1082
 nonsynch_count=1063
-runtime so far in milliseconds=78859412
+runtime so far in milliseconds=75036572
 
 n=440
 G=[ S(440), A(440), PGL(2,439), PSL(2,439) ]
 
 nonsep_count=1082
 nonsynch_count=1063
-runtime so far in milliseconds=78859424
+runtime so far in milliseconds=75036582
 
 n=441
 G=[ S(441), A(441), Sym(21) wreath Sym(2), Alt(21)^2.2^2, Alt(21)^2.4, 
@@ -14948,96 +14968,96 @@ ic to a stored or found nonsynchronizing graph having comment: Hamming graph H\
 
 nonsep_count=1104
 nonsynch_count=1085
-runtime so far in milliseconds=78862557
+runtime so far in milliseconds=75039551
 
 n=442
 G=[ S(442), A(442) ]
 
 nonsep_count=1104
 nonsynch_count=1085
-runtime so far in milliseconds=78862558
+runtime so far in milliseconds=75039551
 
 n=443 is prime. All prime degree groups are separating.
 
 nonsep_count=1104
 nonsynch_count=1085
-runtime so far in milliseconds=78862558
+runtime so far in milliseconds=75039551
 
 n=444
 G=[ S(444), A(444), PGL(2,443), PSL(2,443) ]
 
 nonsep_count=1104
 nonsynch_count=1085
-runtime so far in milliseconds=78862570
+runtime so far in milliseconds=75039562
 
 n=445
 G=[ S(445), A(445) ]
 
 nonsep_count=1104
 nonsynch_count=1085
-runtime so far in milliseconds=78862570
+runtime so far in milliseconds=75039563
 
 n=446
 G=[ S(446), A(446) ]
 
 nonsep_count=1104
 nonsynch_count=1085
-runtime so far in milliseconds=78862570
+runtime so far in milliseconds=75039563
 
 n=447
 G=[ S(447), A(447) ]
 
 nonsep_count=1104
 nonsynch_count=1085
-runtime so far in milliseconds=78862571
+runtime so far in milliseconds=75039563
 
 n=448
 G=[ S(448), A(448) ]
 
 nonsep_count=1104
 nonsynch_count=1085
-runtime so far in milliseconds=78862571
+runtime so far in milliseconds=75039564
 
 n=449 is prime. All prime degree groups are separating.
 
 nonsep_count=1104
 nonsynch_count=1085
-runtime so far in milliseconds=78862571
+runtime so far in milliseconds=75039564
 
 n=450
 G=[ S(450), A(450), PGL(2,449), PSL(2,449) ]
 
 nonsep_count=1104
 nonsynch_count=1085
-runtime so far in milliseconds=78862583
+runtime so far in milliseconds=75039574
 
 n=451
 G=[ S(451), A(451) ]
 
 nonsep_count=1104
 nonsynch_count=1085
-runtime so far in milliseconds=78862583
+runtime so far in milliseconds=75039575
 
 n=452
 G=[ S(452), A(452) ]
 
 nonsep_count=1104
 nonsynch_count=1085
-runtime so far in milliseconds=78862584
+runtime so far in milliseconds=75039575
 
 n=453
 G=[ S(453), A(453) ]
 
 nonsep_count=1104
 nonsynch_count=1085
-runtime so far in milliseconds=78862584
+runtime so far in milliseconds=75039575
 
 n=454
 G=[ S(454), A(454) ]
 
 nonsep_count=1104
 nonsynch_count=1085
-runtime so far in milliseconds=78862585
+runtime so far in milliseconds=75039576
 
 n=455
 G=[ S(455), A(455), Sym(15), Alt(15) ]
@@ -15052,7 +15072,7 @@ raph K(15,3)
 
 nonsep_count=1106
 nonsynch_count=1087
-runtime so far in milliseconds=78862884
+runtime so far in milliseconds=75039836
 
 n=456
 G=[ S(456), A(456), PSL(3, 7).Sym(3), PSL(3, 7).2 ]
@@ -15067,40 +15087,40 @@ L(3, 7).Sym(3) is nonsynchronizing;  nonsynchronizing graph has (v,k,omega) = \
 
 nonsep_count=1108
 nonsynch_count=1089
-runtime so far in milliseconds=78863840
+runtime so far in milliseconds=75040733
 
 n=457 is prime. All prime degree groups are separating.
 
 nonsep_count=1108
 nonsynch_count=1089
-runtime so far in milliseconds=78863840
+runtime so far in milliseconds=75040733
 
 n=458
 G=[ S(458), A(458), PGL(2,457), PSL(2,457) ]
 
 nonsep_count=1108
 nonsynch_count=1089
-runtime so far in milliseconds=78863852
+runtime so far in milliseconds=75040744
 
 n=459
 G=[ S(459), A(459) ]
 
 nonsep_count=1108
 nonsynch_count=1089
-runtime so far in milliseconds=78863853
+runtime so far in milliseconds=75040745
 
 n=460
 G=[ S(460), A(460) ]
 
 nonsep_count=1108
 nonsynch_count=1089
-runtime so far in milliseconds=78863853
+runtime so far in milliseconds=75040745
 
 n=461 is prime. All prime degree groups are separating.
 
 nonsep_count=1108
 nonsynch_count=1089
-runtime so far in milliseconds=78863853
+runtime so far in milliseconds=75040745
 
 n=462
 G=[ S(462), A(462), Sym(12), Alt(12), PGL(2,461), PSL(2,461), Sym(11), 
@@ -15124,20 +15144,20 @@ nchronizing graph has (v,k,omega) = (462,425,66).
 
 nonsep_count=1112
 nonsynch_count=1093
-runtime so far in milliseconds=78864679
+runtime so far in milliseconds=75041464
 
 n=463 is prime. All prime degree groups are separating.
 
 nonsep_count=1112
 nonsynch_count=1093
-runtime so far in milliseconds=78864679
+runtime so far in milliseconds=75041464
 
 n=464
 G=[ S(464), A(464), PGL(2,463), PSL(2,463) ]
 
 nonsep_count=1112
 nonsynch_count=1093
-runtime so far in milliseconds=78864692
+runtime so far in milliseconds=75041476
 
 n=465
 G=[ S(465), A(465), Sym(31), Alt(31), PSL(5, 2).2, PGL(2, 31), PSL(2, 31) ]
@@ -15147,131 +15167,131 @@ v,k,omega) = (465,28,15).
 
 nonsep_count=1113
 nonsynch_count=1094
-runtime so far in milliseconds=79132856
+runtime so far in milliseconds=75278123
 
 n=466
 G=[ S(466), A(466) ]
 
 nonsep_count=1113
 nonsynch_count=1094
-runtime so far in milliseconds=79132856
+runtime so far in milliseconds=75278124
 
 n=467 is prime. All prime degree groups are separating.
 
 nonsep_count=1113
 nonsynch_count=1094
-runtime so far in milliseconds=79132856
+runtime so far in milliseconds=75278124
 
 n=468
 G=[ S(468), A(468), PGL(2,467), PSL(2,467) ]
 
 nonsep_count=1113
 nonsynch_count=1094
-runtime so far in milliseconds=79132869
+runtime so far in milliseconds=75278135
 
 n=469
 G=[ S(469), A(469) ]
 
 nonsep_count=1113
 nonsynch_count=1094
-runtime so far in milliseconds=79132869
+runtime so far in milliseconds=75278136
 
 n=470
 G=[ S(470), A(470) ]
 
 nonsep_count=1113
 nonsynch_count=1094
-runtime so far in milliseconds=79132870
+runtime so far in milliseconds=75278136
 
 n=471
 G=[ S(471), A(471) ]
 
 nonsep_count=1113
 nonsynch_count=1094
-runtime so far in milliseconds=79132870
+runtime so far in milliseconds=75278137
 
 n=472
 G=[ S(472), A(472) ]
 
 nonsep_count=1113
 nonsynch_count=1094
-runtime so far in milliseconds=79132870
+runtime so far in milliseconds=75278137
 
 n=473
 G=[ S(473), A(473) ]
 
 nonsep_count=1113
 nonsynch_count=1094
-runtime so far in milliseconds=79132871
+runtime so far in milliseconds=75278137
 
 n=474
 G=[ S(474), A(474) ]
 
 nonsep_count=1113
 nonsynch_count=1094
-runtime so far in milliseconds=79132871
+runtime so far in milliseconds=75278138
 
 n=475
 G=[ S(475), A(475) ]
 
 nonsep_count=1113
 nonsynch_count=1094
-runtime so far in milliseconds=79132872
+runtime so far in milliseconds=75278138
 
 n=476
 G=[ S(476), A(476) ]
 
 nonsep_count=1113
 nonsynch_count=1094
-runtime so far in milliseconds=79132872
+runtime so far in milliseconds=75278138
 
 n=477
 G=[ S(477), A(477) ]
 
 nonsep_count=1113
 nonsynch_count=1094
-runtime so far in milliseconds=79132872
+runtime so far in milliseconds=75278139
 
 n=478
 G=[ S(478), A(478) ]
 
 nonsep_count=1113
 nonsynch_count=1094
-runtime so far in milliseconds=79132873
+runtime so far in milliseconds=75278139
 
 n=479 is prime. All prime degree groups are separating.
 
 nonsep_count=1113
 nonsynch_count=1094
-runtime so far in milliseconds=79132873
+runtime so far in milliseconds=75278139
 
 n=480
 G=[ S(480), A(480), PGL(2,479), PSL(2,479) ]
 
 nonsep_count=1113
 nonsynch_count=1094
-runtime so far in milliseconds=79132885
+runtime so far in milliseconds=75278154
 
 n=481
 G=[ S(481), A(481) ]
 
 nonsep_count=1113
 nonsynch_count=1094
-runtime so far in milliseconds=79132886
+runtime so far in milliseconds=75278155
 
 n=482
 G=[ S(482), A(482) ]
 
 nonsep_count=1113
 nonsynch_count=1094
-runtime so far in milliseconds=79132886
+runtime so far in milliseconds=75278155
 
 n=483
 G=[ S(483), A(483) ]
 
 nonsep_count=1113
 nonsynch_count=1094
-runtime so far in milliseconds=79132886
+runtime so far in milliseconds=75278156
 
 n=484
 G=[ S(484), A(484), Sym(22) wreath Sym(2), Alt(22)^2.2^2, Alt(22)^2.4, 
@@ -15312,75 +15332,75 @@ aph H(2,22)
 
 nonsep_count=1121
 nonsynch_count=1102
-runtime so far in milliseconds=79134258
+runtime so far in milliseconds=75279349
 
 n=485
 G=[ S(485), A(485) ]
 
 nonsep_count=1121
 nonsynch_count=1102
-runtime so far in milliseconds=79134258
+runtime so far in milliseconds=75279349
 
 n=486
 G=[ S(486), A(486) ]
 
 nonsep_count=1121
 nonsynch_count=1102
-runtime so far in milliseconds=79134259
+runtime so far in milliseconds=75279350
 
 n=487 is prime. All prime degree groups are separating.
 
 nonsep_count=1121
 nonsynch_count=1102
-runtime so far in milliseconds=79134259
+runtime so far in milliseconds=75279350
 
 n=488
 G=[ S(488), A(488), PGL(2,487), PSL(2,487) ]
 
 nonsep_count=1121
 nonsynch_count=1102
-runtime so far in milliseconds=79134272
+runtime so far in milliseconds=75279362
 
 n=489
 G=[ S(489), A(489) ]
 
 nonsep_count=1121
 nonsynch_count=1102
-runtime so far in milliseconds=79134273
+runtime so far in milliseconds=75279362
 
 n=490
 G=[ S(490), A(490) ]
 
 nonsep_count=1121
 nonsynch_count=1102
-runtime so far in milliseconds=79134273
+runtime so far in milliseconds=75279362
 
 n=491 is prime. All prime degree groups are separating.
 
 nonsep_count=1121
 nonsynch_count=1102
-runtime so far in milliseconds=79134273
+runtime so far in milliseconds=75279362
 
 n=492
 G=[ S(492), A(492), PGL(2,491), PSL(2,491) ]
 
 nonsep_count=1121
 nonsynch_count=1102
-runtime so far in milliseconds=79134286
+runtime so far in milliseconds=75279372
 
 n=493
 G=[ S(493), A(493) ]
 
 nonsep_count=1121
 nonsynch_count=1102
-runtime so far in milliseconds=79134287
+runtime so far in milliseconds=75279373
 
 n=494
 G=[ S(494), A(494) ]
 
 nonsep_count=1121
 nonsynch_count=1102
-runtime so far in milliseconds=79134287
+runtime so far in milliseconds=75279373
 
 n=495
 G=[ S(495), A(495), PSO-(10, 2), O-(10, 2), Sym(12), Alt(12), M(12).2, 
@@ -15412,7 +15432,7 @@ hronizing graph has (v,k,omega) = (495,398,55).
 
 nonsep_count=1127
 nonsynch_count=1108
-runtime so far in milliseconds=79136983
+runtime so far in milliseconds=75281834
 
 n=496
 G=[ S(496), A(496), Sym(32), Alt(32), PSp(10, 2), PSO+(10, 2), O+(10, 2), 
@@ -15439,54 +15459,54 @@ r graph K(32,2)
 
 nonsep_count=1132
 nonsynch_count=1113
-runtime so far in milliseconds=82623745
+runtime so far in milliseconds=78456930
 
 n=497
 G=[ S(497), A(497) ]
 
 nonsep_count=1132
 nonsynch_count=1113
-runtime so far in milliseconds=82623746
+runtime so far in milliseconds=78456931
 
 n=498
 G=[ S(498), A(498) ]
 
 nonsep_count=1132
 nonsynch_count=1113
-runtime so far in milliseconds=82623747
+runtime so far in milliseconds=78456931
 
 n=499 is prime. All prime degree groups are separating.
 
 nonsep_count=1132
 nonsynch_count=1113
-runtime so far in milliseconds=82623747
+runtime so far in milliseconds=78456931
 
 n=500
 G=[ S(500), A(500), PGL(2,499), PSL(2,499) ]
 
 nonsep_count=1132
 nonsynch_count=1113
-runtime so far in milliseconds=82623762
+runtime so far in milliseconds=78456945
 
 n=501
 G=[ S(501), A(501) ]
 
 nonsep_count=1132
 nonsynch_count=1113
-runtime so far in milliseconds=82623763
+runtime so far in milliseconds=78456946
 
 n=502
 G=[ S(502), A(502) ]
 
 nonsep_count=1132
 nonsynch_count=1113
-runtime so far in milliseconds=82623763
+runtime so far in milliseconds=78456946
 
 n=503 is prime. All prime degree groups are separating.
 
 nonsep_count=1132
 nonsynch_count=1113
-runtime so far in milliseconds=82623763
+runtime so far in milliseconds=78456946
 
 n=504
 G=[ S(504), A(504), PGL(2,503), PSL(2,503), PSL(2, 8)^2.6, PSL(2, 8)^2.3, 
@@ -15506,55 +15526,55 @@ O'Nan-Scott type 3a
 
 nonsep_count=1136
 nonsynch_count=1117
-runtime so far in milliseconds=82624686
+runtime so far in milliseconds=78457712
 
 n=505
 G=[ S(505), A(505) ]
 
 nonsep_count=1136
 nonsynch_count=1117
-runtime so far in milliseconds=82624687
+runtime so far in milliseconds=78457713
 
 n=506
 G=[ S(506), A(506), M(23) ]
 
 nonsep_count=1136
 nonsynch_count=1117
-runtime so far in milliseconds=82625014
+runtime so far in milliseconds=78458131
 
 n=507
 G=[ S(507), A(507) ]
 
 nonsep_count=1136
 nonsynch_count=1117
-runtime so far in milliseconds=82625014
+runtime so far in milliseconds=78458132
 
 n=508
 G=[ S(508), A(508) ]
 
 nonsep_count=1136
 nonsynch_count=1117
-runtime so far in milliseconds=82625015
+runtime so far in milliseconds=78458132
 
 n=509 is prime. All prime degree groups are separating.
 
 nonsep_count=1136
 nonsynch_count=1117
-runtime so far in milliseconds=82625015
+runtime so far in milliseconds=78458132
 
 n=510
 G=[ S(510), A(510), PGL(2,509), PSL(2,509) ]
 
 nonsep_count=1136
 nonsynch_count=1117
-runtime so far in milliseconds=82625028
+runtime so far in milliseconds=78458145
 
 n=511
 G=[ S(511), A(511), PSL(9, 2) ]
 
 nonsep_count=1136
 nonsynch_count=1117
-runtime so far in milliseconds=82625040
+runtime so far in milliseconds=78458156
 
 n=512
 G=[ S(512), A(512), AGL(9, 2), Sym(8) wreath Sym(3), Sym(8) wreath Alt(3), 
@@ -15736,7 +15756,7 @@ o a stored or found nonsynchronizing graph having comment: Hamming graph H(3,8\
 
 nonsep_count=1177
 nonsynch_count=1158
-runtime so far in milliseconds=90164964
+runtime so far in milliseconds=85154184
 
 n=513
 G=[ S(513), A(513), PGammaL(2, 2^9), PSL(2, 2^9).3, PSL(2, 2^9), 
@@ -15745,49 +15765,49 @@ G=[ S(513), A(513), PGammaL(2, 2^9), PSL(2, 2^9).3, PSL(2, 2^9),
 
 nonsep_count=1177
 nonsynch_count=1158
-runtime so far in milliseconds=90164993
+runtime so far in milliseconds=85154210
 
 n=514
 G=[ S(514), A(514) ]
 
 nonsep_count=1177
 nonsynch_count=1158
-runtime so far in milliseconds=90164993
+runtime so far in milliseconds=85154211
 
 n=515
 G=[ S(515), A(515) ]
 
 nonsep_count=1177
 nonsynch_count=1158
-runtime so far in milliseconds=90164994
+runtime so far in milliseconds=85154211
 
 n=516
 G=[ S(516), A(516) ]
 
 nonsep_count=1177
 nonsynch_count=1158
-runtime so far in milliseconds=90164994
+runtime so far in milliseconds=85154212
 
 n=517
 G=[ S(517), A(517) ]
 
 nonsep_count=1177
 nonsynch_count=1158
-runtime so far in milliseconds=90164995
+runtime so far in milliseconds=85154212
 
 n=518
 G=[ S(518), A(518) ]
 
 nonsep_count=1177
 nonsynch_count=1158
-runtime so far in milliseconds=90164995
+runtime so far in milliseconds=85154212
 
 n=519
 G=[ S(519), A(519) ]
 
 nonsep_count=1177
 nonsynch_count=1158
-runtime so far in milliseconds=90164995
+runtime so far in milliseconds=85154213
 
 n=520
 G=[ S(520), A(520), PSL(4, 3).2^2, PSL(4, 3).2, PSL(4, 3).2, PGammaL(2, 2^6), 
@@ -15808,33 +15828,33 @@ L(4, 3).2^2 is nonsynchronizing;  nonsynchronizing graph has (v,k,omega) = (52\
 
 nonsep_count=1180
 nonsynch_count=1161
-runtime so far in milliseconds=208662489
+runtime so far in milliseconds=190840259
 
 n=521 is prime. All prime degree groups are separating.
 
 nonsep_count=1180
 nonsynch_count=1161
-runtime so far in milliseconds=208662489
+runtime so far in milliseconds=190840259
 
 n=522
 G=[ S(522), A(522), PGL(2,521), PSL(2,521) ]
 
 nonsep_count=1180
 nonsynch_count=1161
-runtime so far in milliseconds=208662510
+runtime so far in milliseconds=190840279
 
 n=523 is prime. All prime degree groups are separating.
 
 nonsep_count=1180
 nonsynch_count=1161
-runtime so far in milliseconds=208662510
+runtime so far in milliseconds=190840279
 
 n=524
 G=[ S(524), A(524), PGL(2,523), PSL(2,523) ]
 
 nonsep_count=1180
 nonsynch_count=1161
-runtime so far in milliseconds=208662524
+runtime so far in milliseconds=190840292
 
 n=525
 G=[ S(525), A(525), J_2.2, PGammaU(3, 5), J_2, PGU(3, 5), PSigmaU(3, 5), 
@@ -15864,21 +15884,21 @@ n=525  libnr=1  PSU(3, 5) is a group of automorphisms of a graph isomorphic to\
 
 nonsep_count=1186
 nonsynch_count=1167
-runtime so far in milliseconds=208663063
+runtime so far in milliseconds=190840758
 
 n=526
 G=[ S(526), A(526) ]
 
 nonsep_count=1186
 nonsynch_count=1167
-runtime so far in milliseconds=208663063
+runtime so far in milliseconds=190840759
 
 n=527
 G=[ S(527), A(527), PSO+(10, 2), O+(10, 2) ]
 
 nonsep_count=1186
 nonsynch_count=1167
-runtime so far in milliseconds=208663617
+runtime so far in milliseconds=190841237
 
 n=528
 G=[ S(528), A(528), Sym(33), Alt(33), PSp(10, 2), PSO-(10, 2), O-(10, 2), 
@@ -15886,7 +15906,7 @@ G=[ S(528), A(528), Sym(33), Alt(33), PSp(10, 2), PSO-(10, 2), O-(10, 2),
 
 nonsep_count=1186
 nonsynch_count=1167
-runtime so far in milliseconds=214400924
+runtime so far in milliseconds=195970469
 
 n=529
 G=[ S(529), A(529), Sym(23) wreath Sym(2), Alt(23)^2.2^2, Alt(23)^2.4, 
@@ -21444,7 +21464,7 @@ th some hyperplane (in the minimal normal subgroup)
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214409153
+runtime so far in milliseconds=195978699
 
 n=530
 G=[ S(530), A(530), PGammaL(2, 23^2), PGL(2, 23^2), PSigmaL(2, 23^2), 
@@ -21452,70 +21472,70 @@ G=[ S(530), A(530), PGammaL(2, 23^2), PGL(2, 23^2), PSigmaL(2, 23^2),
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214409170
+runtime so far in milliseconds=195978715
 
 n=531
 G=[ S(531), A(531) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214409171
+runtime so far in milliseconds=195978715
 
 n=532
 G=[ S(532), A(532) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214409171
+runtime so far in milliseconds=195978716
 
 n=533
 G=[ S(533), A(533) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214409171
+runtime so far in milliseconds=195978716
 
 n=534
 G=[ S(534), A(534) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214409172
+runtime so far in milliseconds=195978717
 
 n=535
 G=[ S(535), A(535) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214409172
+runtime so far in milliseconds=195978717
 
 n=536
 G=[ S(536), A(536) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214409173
+runtime so far in milliseconds=195978717
 
 n=537
 G=[ S(537), A(537) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214409173
+runtime so far in milliseconds=195978718
 
 n=538
 G=[ S(538), A(538) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214409174
+runtime so far in milliseconds=195978718
 
 n=539
 G=[ S(539), A(539) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214409174
+runtime so far in milliseconds=195978719
 
 n=540
 G=[ S(540), A(540), PSU(4, 3).D_8, PSU(4, 3).2^2, PSU(4, 3).4, PSU(4, 3).2^2, 
@@ -21523,137 +21543,137 @@ G=[ S(540), A(540), PSU(4, 3).D_8, PSU(4, 3).2^2, PSU(4, 3).4, PSU(4, 3).2^2,
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412361
+runtime so far in milliseconds=195981623
 
 n=541 is prime. All prime degree groups are separating.
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412361
+runtime so far in milliseconds=195981623
 
 n=542
 G=[ S(542), A(542), PGL(2,541), PSL(2,541) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412375
+runtime so far in milliseconds=195981636
 
 n=543
 G=[ S(543), A(543) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412376
+runtime so far in milliseconds=195981637
 
 n=544
 G=[ S(544), A(544) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412376
+runtime so far in milliseconds=195981637
 
 n=545
 G=[ S(545), A(545) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412376
+runtime so far in milliseconds=195981637
 
 n=546
 G=[ S(546), A(546) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412376
+runtime so far in milliseconds=195981638
 
 n=547 is prime. All prime degree groups are separating.
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412376
+runtime so far in milliseconds=195981638
 
 n=548
 G=[ S(548), A(548), PGL(2,547), PSL(2,547) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412389
+runtime so far in milliseconds=195981651
 
 n=549
 G=[ S(549), A(549) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412390
+runtime so far in milliseconds=195981652
 
 n=550
 G=[ S(550), A(550) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412390
+runtime so far in milliseconds=195981652
 
 n=551
 G=[ S(551), A(551) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412391
+runtime so far in milliseconds=195981652
 
 n=552
 G=[ S(552), A(552) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412391
+runtime so far in milliseconds=195981653
 
 n=553
 G=[ S(553), A(553), PSL(3, 23) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412396
+runtime so far in milliseconds=195981657
 
 n=554
 G=[ S(554), A(554) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412396
+runtime so far in milliseconds=195981657
 
 n=555
 G=[ S(555), A(555) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412397
+runtime so far in milliseconds=195981658
 
 n=556
 G=[ S(556), A(556) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412397
+runtime so far in milliseconds=195981658
 
 n=557 is prime. All prime degree groups are separating.
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412397
+runtime so far in milliseconds=195981658
 
 n=558
 G=[ S(558), A(558), PGL(2,557), PSL(2,557) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412412
+runtime so far in milliseconds=195981670
 
 n=559
 G=[ S(559), A(559) ]
 
 nonsep_count=1237
 nonsynch_count=1218
-runtime so far in milliseconds=214412412
+runtime so far in milliseconds=195981671
 
 n=560
 G=[ S(560), A(560), Sym(16), Alt(16), PSz(8).3, PSz(8) ]
@@ -21668,7 +21688,7 @@ nchronizing graph has (v,k,omega) = (560,507,112).
 
 nonsep_count=1239
 nonsynch_count=1220
-runtime so far in milliseconds=214420306
+runtime so far in milliseconds=195989058
 
 n=561
 G=[ S(561), A(561), Sym(34), Alt(34) ]
@@ -21683,41 +21703,41 @@ raph K(34,2)
 
 nonsep_count=1241
 nonsynch_count=1222
-runtime so far in milliseconds=214421279
+runtime so far in milliseconds=195989405
 
 n=562
 G=[ S(562), A(562) ]
 
 nonsep_count=1241
 nonsynch_count=1222
-runtime so far in milliseconds=214421280
+runtime so far in milliseconds=195989405
 
 n=563 is prime. All prime degree groups are separating.
 
 nonsep_count=1241
 nonsynch_count=1222
-runtime so far in milliseconds=214421280
+runtime so far in milliseconds=195989405
 
 n=564
 G=[ S(564), A(564), PGL(2,563), PSL(2,563) ]
 
 nonsep_count=1241
 nonsynch_count=1222
-runtime so far in milliseconds=214421294
+runtime so far in milliseconds=195989419
 
 n=565
 G=[ S(565), A(565) ]
 
 nonsep_count=1241
 nonsynch_count=1222
-runtime so far in milliseconds=214421295
+runtime so far in milliseconds=195989419
 
 n=566
 G=[ S(566), A(566) ]
 
 nonsep_count=1241
 nonsynch_count=1222
-runtime so far in milliseconds=214421295
+runtime so far in milliseconds=195989420
 
 n=567
 G=[ S(567), A(567), PSU(4, 3).2^2, PSU(4, 3).2, PSU(4, 3).2, PSU(4, 3).2, 
@@ -21745,47 +21765,47 @@ n=567  libnr=1  PSU(4, 3) is a group of automorphisms of a graph isomorphic to\
 
 nonsep_count=1246
 nonsynch_count=1227
-runtime so far in milliseconds=214421682
+runtime so far in milliseconds=195989777
 
 n=568
 G=[ S(568), A(568) ]
 
 nonsep_count=1246
 nonsynch_count=1227
-runtime so far in milliseconds=214421682
+runtime so far in milliseconds=195989778
 
 n=569 is prime. All prime degree groups are separating.
 
 nonsep_count=1246
 nonsynch_count=1227
-runtime so far in milliseconds=214421682
+runtime so far in milliseconds=195989778
 
 n=570
 G=[ S(570), A(570), PGL(2,569), PSL(2,569) ]
 
 nonsep_count=1246
 nonsynch_count=1227
-runtime so far in milliseconds=214421697
+runtime so far in milliseconds=195989792
 
 n=571 is prime. All prime degree groups are separating.
 
 nonsep_count=1246
 nonsynch_count=1227
-runtime so far in milliseconds=214421697
+runtime so far in milliseconds=195989792
 
 n=572
 G=[ S(572), A(572), PGL(2,571), PSL(2,571) ]
 
 nonsep_count=1246
 nonsynch_count=1227
-runtime so far in milliseconds=214421711
+runtime so far in milliseconds=195989805
 
 n=573
 G=[ S(573), A(573) ]
 
 nonsep_count=1246
 nonsynch_count=1227
-runtime so far in milliseconds=214421711
+runtime so far in milliseconds=195989806
 
 n=574
 G=[ S(574), A(574), PSL(2, 41) ]
@@ -21796,14 +21816,14 @@ o a stored or found nonsynchronizing graph having comment: Group = PSL(2, 41);\
 
 nonsep_count=1247
 nonsynch_count=1228
-runtime so far in milliseconds=214444787
+runtime so far in milliseconds=196011504
 
 n=575
 G=[ S(575), A(575) ]
 
 nonsep_count=1247
 nonsynch_count=1228
-runtime so far in milliseconds=214444788
+runtime so far in milliseconds=196011505
 
 n=576
 G=[ S(576), A(576), Sym(24) wreath Sym(2), Alt(24)^2.2^2, Alt(24)^2.4, 
@@ -21848,62 +21868,62 @@ ng graph H(2,24)
 
 nonsep_count=1256
 nonsynch_count=1237
-runtime so far in milliseconds=214446502
+runtime so far in milliseconds=196013227
 
 n=577 is prime. All prime degree groups are separating.
 
 nonsep_count=1256
 nonsynch_count=1237
-runtime so far in milliseconds=214446502
+runtime so far in milliseconds=196013227
 
 n=578
 G=[ S(578), A(578), PGL(2,577), PSL(2,577) ]
 
 nonsep_count=1256
 nonsynch_count=1237
-runtime so far in milliseconds=214446517
+runtime so far in milliseconds=196013240
 
 n=579
 G=[ S(579), A(579) ]
 
 nonsep_count=1256
 nonsynch_count=1237
-runtime so far in milliseconds=214446517
+runtime so far in milliseconds=196013240
 
 n=580
 G=[ S(580), A(580) ]
 
 nonsep_count=1256
 nonsynch_count=1237
-runtime so far in milliseconds=214446518
+runtime so far in milliseconds=196013240
 
 n=581
 G=[ S(581), A(581) ]
 
 nonsep_count=1256
 nonsynch_count=1237
-runtime so far in milliseconds=214446518
+runtime so far in milliseconds=196013241
 
 n=582
 G=[ S(582), A(582) ]
 
 nonsep_count=1256
 nonsynch_count=1237
-runtime so far in milliseconds=214446518
+runtime so far in milliseconds=196013241
 
 n=583
 G=[ S(583), A(583) ]
 
 nonsep_count=1256
 nonsynch_count=1237
-runtime so far in milliseconds=214446518
+runtime so far in milliseconds=196013241
 
 n=584
 G=[ S(584), A(584) ]
 
 nonsep_count=1256
 nonsynch_count=1237
-runtime so far in milliseconds=214446519
+runtime so far in milliseconds=196013241
 
 n=585
 G=[ S(585), A(585), PGammaL(4, 2^3), PSL(4, 2^3), PSp(4, 2^3):3, PSp(4, 2^3) ]
@@ -21918,237 +21938,237 @@ the point graph of SymplecticSpace(3,8), which has an ovoid and a spread
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214447199
+runtime so far in milliseconds=196013875
 
 n=586
 G=[ S(586), A(586) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214447200
+runtime so far in milliseconds=196013875
 
 n=587 is prime. All prime degree groups are separating.
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214447200
+runtime so far in milliseconds=196013875
 
 n=588
 G=[ S(588), A(588), PGL(2,587), PSL(2,587) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214447225
+runtime so far in milliseconds=196013890
 
 n=589
 G=[ S(589), A(589) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214447225
+runtime so far in milliseconds=196013890
 
 n=590
 G=[ S(590), A(590) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214447226
+runtime so far in milliseconds=196013891
 
 n=591
 G=[ S(591), A(591) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214447226
+runtime so far in milliseconds=196013891
 
 n=592
 G=[ S(592), A(592) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214447227
+runtime so far in milliseconds=196013892
 
 n=593 is prime. All prime degree groups are separating.
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214447227
+runtime so far in milliseconds=196013892
 
 n=594
 G=[ S(594), A(594), PGL(2,593), PSL(2,593) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214447242
+runtime so far in milliseconds=196013905
 
 n=595
 G=[ S(595), A(595), Sym(35), Alt(35) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448268
+runtime so far in milliseconds=196014880
 
 n=596
 G=[ S(596), A(596) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448269
+runtime so far in milliseconds=196014880
 
 n=597
 G=[ S(597), A(597) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448269
+runtime so far in milliseconds=196014881
 
 n=598
 G=[ S(598), A(598) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448270
+runtime so far in milliseconds=196014881
 
 n=599 is prime. All prime degree groups are separating.
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448270
+runtime so far in milliseconds=196014881
 
 n=600
 G=[ S(600), A(600), PGL(2,599), PSL(2,599) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448285
+runtime so far in milliseconds=196014895
 
 n=601 is prime. All prime degree groups are separating.
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448285
+runtime so far in milliseconds=196014895
 
 n=602
 G=[ S(602), A(602), PGL(2,601), PSL(2,601) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448301
+runtime so far in milliseconds=196014912
 
 n=603
 G=[ S(603), A(603) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448301
+runtime so far in milliseconds=196014913
 
 n=604
 G=[ S(604), A(604) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448302
+runtime so far in milliseconds=196014913
 
 n=605
 G=[ S(605), A(605) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448302
+runtime so far in milliseconds=196014914
 
 n=606
 G=[ S(606), A(606) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448303
+runtime so far in milliseconds=196014914
 
 n=607 is prime. All prime degree groups are separating.
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448303
+runtime so far in milliseconds=196014914
 
 n=608
 G=[ S(608), A(608), PGL(2,607), PSL(2,607) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448318
+runtime so far in milliseconds=196014928
 
 n=609
 G=[ S(609), A(609) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448318
+runtime so far in milliseconds=196014929
 
 n=610
 G=[ S(610), A(610) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448318
+runtime so far in milliseconds=196014929
 
 n=611
 G=[ S(611), A(611) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448318
+runtime so far in milliseconds=196014930
 
 n=612
 G=[ S(612), A(612) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448318
+runtime so far in milliseconds=196014930
 
 n=613 is prime. All prime degree groups are separating.
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448318
+runtime so far in milliseconds=196014930
 
 n=614
 G=[ S(614), A(614), PGL(2,613), PSL(2,613) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448333
+runtime so far in milliseconds=196014944
 
 n=615
 G=[ S(615), A(615) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214448334
+runtime so far in milliseconds=196014945
 
 n=616
 G=[ S(616), A(616), M(22).2, M(22) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214449827
+runtime so far in milliseconds=196016287
 
 n=617 is prime. All prime degree groups are separating.
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214449827
+runtime so far in milliseconds=196016287
 
 n=618
 G=[ S(618), A(618), PGL(2,617), PSL(2,617) ]
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214449843
+runtime so far in milliseconds=196016301
 
 n=619 is prime. All prime degree groups are separating.
 
 nonsep_count=1258
 nonsynch_count=1239
-runtime so far in milliseconds=214449843
+runtime so far in milliseconds=196016301
 
 n=620
 G=[ S(620), A(620), PGL(2,619), PSL(2,619), PSL(2, 31) ]
@@ -22159,28 +22179,28 @@ o a stored or found nonsynchronizing graph having comment: Group = PSL(2, 31);\
 
 nonsep_count=1259
 nonsynch_count=1240
-runtime so far in milliseconds=214452351
+runtime so far in milliseconds=196018751
 
 n=621
 G=[ S(621), A(621) ]
 
 nonsep_count=1259
 nonsynch_count=1240
-runtime so far in milliseconds=214452352
+runtime so far in milliseconds=196018751
 
 n=622
 G=[ S(622), A(622) ]
 
 nonsep_count=1259
 nonsynch_count=1240
-runtime so far in milliseconds=214452352
+runtime so far in milliseconds=196018752
 
 n=623
 G=[ S(623), A(623) ]
 
 nonsep_count=1259
 nonsynch_count=1240
-runtime so far in milliseconds=214452353
+runtime so far in milliseconds=196018752
 
 n=624
 G=[ S(624), A(624) ]
@@ -22281,6 +22301,6 @@ gap> for i in [adhocnonsynchgraphs_start..Length(nonsynchgraphs)] do
 496 & 8 & PSL(5, 2).2 & 30 & 16
 520 & 7 & PSL(4, 3).2^2 & 24 & 13
 gap> Runtimes();
-rec( system_time := 7632290, system_time_children := 376832, 
-  user_time := 214454048, user_time_children := 1441636 )
+rec( system_time := 7091229, system_time_children := 356464, 
+  user_time := 196020258, user_time_children := 1348917 )
 gap> quit;
