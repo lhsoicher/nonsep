@@ -8,7 +8,7 @@ only_two_closed:=false;
 # in  degrees_to_check.  Only two-closed groups are counted iff the 
 # boolean  only_two_closed  has value true. 
 #
-# Leonard Soicher, 30/11/2024.
+# Leonard Soicher, 30/11/2024; updated 17/10/2025.
 #
 if not IsSubset([2..4095],degrees_to_check) then
    Error("the GAP primitive groups library restricts the degree to be in [2..4095]"); 
@@ -1022,8 +1022,11 @@ for n in degrees_to_check do
             break;
          fi;
          #
-         # At this point, we know that  gamma  is synchronizing, 
-         # so we now check whether the complement  delta  of  gamma 
+         # At this point, we know that  gamma  is synchronizing 
+         # or there is another graph for  G[i]  which we will find
+         # that is nonsynchronizing. 
+         #
+         # We now need to check whether the complement  delta  of  gamma 
          # is synchronizing. 
          # 
          if n=315 and Size(G[i]) in [604800,604800*2] and VertexDegrees(delta)=[250] and CliqueNumber(delta)=63 then   
@@ -1049,7 +1052,7 @@ for n in degrees_to_check do
                   " is nonsynchronizing; ",
                   " nonsynchronizing graph has (v,k,omega) = (",
                   String(delta.order),",", String(VertexDegree(delta,1)),",",
-                  String(delta.order/Length(Set(C))),").");
+                  String(alpha),").");
             nonsep_record.comment:=comment;
             Print("\n",comment,"\n"); 
             nonsep_record.isNonsynchronizing:=true; 
@@ -1058,8 +1061,7 @@ for n in degrees_to_check do
             Add(nonsynchgraphcomments,comment); 
             break;
          fi;
-         # At this point, we know that both  gamma  and  delta 
-         # are synchronizing. 
+         # At this point, we know that  delta  is synchronizing. 
       od;
       #
       # At this point we have considered all the generalized orbital
